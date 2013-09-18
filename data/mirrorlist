@@ -1,0 +1,8 @@
+#
+# KaOS repository mirrorlist
+#
+
+# United States
+Server = http://kaosx.us/repo/$repo
+
+

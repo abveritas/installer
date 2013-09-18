@@ -1,0 +1,25 @@
+Installer
+=====
+
+Graphical Installer interface, Tribe forked from Chakra Gnu/Linux.
+
+
+credits:
+
+Anke Boersma
+Dario Freddi
+Drake Justice
+George Grabler
+Jan Mette
+Lukas Appelhans
+Manuel Tortosa
+Phil Miller
+
+and lots of other people. If you want credit for something of yours, just ask.
+
+
+UPDATE TRANSLATIONS
+-------------------
+
+Messages.sh is a script for updating the messages from source code,
+if you want to sync from Transifex you should use sync-transifex instead.
