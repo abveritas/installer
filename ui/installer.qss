@@ -205,7 +205,7 @@ QComboBox:editable {
         border: 1px solid #6b6b6b;
         color: #eeeeee;
         background: #000000;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
 }
 
 QComboBox:!editable, QComboBox::drop-down:editable {
@@ -265,7 +265,7 @@ QComboBox::down-arrow:on { /* shift the arrow when popup is open */
 
 QComboBox QAbstractItemView {
         color: #eeeeee;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
         background: #000000;
 }
 
@@ -280,7 +280,7 @@ QLineEdit {
         border-radius: 4px;
         padding: 0 6px;
         background: #000000;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
 }
 
 QLineEdit:hover {
@@ -289,7 +289,7 @@ QLineEdit:hover {
         border-radius: 4px;
         padding: 0 6px;
         background: #000000;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
 }
 
 QLineEdit:disabled {
@@ -298,7 +298,7 @@ QLineEdit:disabled {
         border-radius: 4px;
         padding: 0 6px;
         background: #000000;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
 }
 
 
@@ -311,7 +311,7 @@ QSpinBox {
         border: 1px solid #6b6b6b;
         border-radius: 4px;
         background: #000000;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
 }
 
 QSpinBox:hover {
@@ -320,7 +320,7 @@ QSpinBox:hover {
         border: 1px solid #808080;
         border-radius: 4px;
         background: #000000;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
 }
 
 QSpinBox::up-button {
@@ -371,7 +371,7 @@ QTextEdit, QListView {
         background-color: #4d4d4d;
         border: 1px solid #6b6b6b;
         border-radius: 4px;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
 }
 
 
@@ -384,7 +384,7 @@ QTreeView {
         background-color: #000000;
         border: 1px solid #6b6b6b;
         border-radius: 4px;
-        selection-background-color: #0057ae;
+        selection-background-color: #325332;
 }
 
 /*
@@ -415,7 +415,7 @@ QProgressBar {
 
 QProgressBar:chunk {
         background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                        stop: 0 #325332, stop: 1 #1f331f);
+                                        stop: 0 #325332, stop: 1 #3c633c);
         border: 2px solid #599359;
         border-radius: 2px;
         margin: 2px;

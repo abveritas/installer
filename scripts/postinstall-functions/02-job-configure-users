@@ -28,6 +28,7 @@ job_configure_users()
 
 	msg "create common dirs"
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Desktop
+	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Documents
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Downloads
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Images
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Music
