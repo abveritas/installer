@@ -393,13 +393,8 @@ void MainWindow::goToNextStep()
         break;
 
     case MainWindow::Partition:
-        m_currentAction = MainWindow::NetInst;
-        setInstallationStep(MainWindow::Partition, MainWindow::Done);
-        break;
-
-    case MainWindow::NetInst:
         m_currentAction = MainWindow::ReadyToInstall;
-        setInstallationStep(MainWindow::NetInst, MainWindow::Done);
+        setInstallationStep(MainWindow::Partition, MainWindow::Done);
         break;
 
     case MainWindow::ReadyToInstall:
@@ -466,13 +461,8 @@ void MainWindow::goToPreviousStep()
         setInstallationStep(MainWindow::Partition, MainWindow::ToDo);
         break;
 
-    case MainWindow::NetInst:
-        m_currentAction = MainWindow::Partition;
-        setInstallationStep(MainWindow::NetInst, MainWindow::ToDo);
-        break;
-
     case MainWindow::ReadyToInstall:
-        m_currentAction = MainWindow::NetInst;
+        m_currentAction = MainWindow::Partition;
         setInstallationStep(MainWindow::ReadyToInstall, MainWindow::Done);
         break;
 

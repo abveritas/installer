@@ -21,7 +21,7 @@ NetInstPage::NetInstPage(QWidget *parent)
     // populate m_groups with i12ized strings
     m_groups["default"]         = {i18n("Default"),         i18n("Default group"), true};
     m_groups["wireless"]        = {i18n("Wireless"),        i18n("Tools for wireless connections")};
-    m_groups["ccr"]             = {i18n("CCR"),             i18n("Tools for the Chakra Community Repository")};
+    m_groups["gtk"]             = {i18n("GTK"),             i18n("Applications that depend on GTK")};
     m_groups["graphics"]        = {i18n("Graphics"),        i18n("Applications to work with graphics")};
     m_groups["burn"]            = {i18n("Burning"),         i18n("Set of packages for disc burning")};
     m_groups["printing"]        = {i18n("Printing"),        i18n("Print much?")};
