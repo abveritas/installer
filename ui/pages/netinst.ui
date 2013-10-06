@@ -93,7 +93,7 @@ p, li { white-space: pre-wrap; }
       <item>
        <widget class="QRadioButton" name="isoinst">
         <property name="text">
-         <string>Offline Installation.  This installs the system from the packages included on the ISO, default option</string>
+         <string>Offline Installation.  This installs the system from the packages included on the ISO.</string>
         </property>
         <property name="checked">
          <bool>true</bool>

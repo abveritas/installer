@@ -70,33 +70,33 @@ void NetInstPage::aboutToGoToPrevious()
 
 bool NetInstPage::loadGroupList()
 {
-    QString confUrl("https://github.com/KaOSx/installer/raw/master/data/netinstall.conf");
+    //QString confUrl("https://github.com/KaOSx/installer/raw/master/data/netinstall.conf");
 
-    KIO::Job* getJob = KIO::get(confUrl, KIO::Reload, KIO::Overwrite | KIO::HideProgressInfo);
-    QByteArray data;
-    if (!KIO::NetAccess::synchronousRun(getJob, 0, &data)) {
-        return false;
-    }
+    //KIO::Job* getJob = KIO::get(confUrl, KIO::Reload, KIO::Overwrite | KIO::HideProgressInfo);
+    //QByteArray data;
+    //if (!KIO::NetAccess::synchronousRun(getJob, 0, &data)) {
+    //    return false;
+    //}
 
-    QString currentGroup;
-    QTextStream in(&data);
-    while (!in.atEnd()) {
-        QString line = in.readLine().trimmed();
-        if (line.isEmpty() || line.startsWith('#')) {
-            continue;
-        }
-        if (line.startsWith('[')) {
-            QStringList tmp = line.split(']');
-            int end = line.indexOf(']');
-            currentGroup = line.mid(1, end - 1);
+    //QString currentGroup;
+    //QTextStream in(&data);
+    //while (!in.atEnd()) {
+        //QString line = in.readLine().trimmed();
+        //if (line.isEmpty() || line.startsWith('#')) {
+        //    continue;
+        //}
+        //if (line.startsWith('[')) {
+        //    QStringList tmp = line.split(']');
+        //    int end = line.indexOf(']');
+        //    currentGroup = line.mid(1, end - 1);
             // show groups in order as they appear
-            m_groupOrder << currentGroup;
-        } else {
-            QString pkg = line.left(line.indexOf(' '));
-            m_groups[currentGroup].packages << pkg;
-        }
-    }
-    return true;
+        //    m_groupOrder << currentGroup;
+        //} else {
+        //    QString pkg = line.left(line.indexOf(' '));
+        //    m_groups[currentGroup].packages << pkg;
+        //}
+    //}
+    return false;
 }
 
 void NetInstPage::intallTypeToggled(QAbstractButton *button)

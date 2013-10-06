@@ -49,7 +49,7 @@ void ReadyInstallPage::createWidget()
         // show selected groups here too
         installStr = i18n("Network install");
     } else {
-        installStr = i18n("Offline install");
+        installStr = i18n("Copy ISO");
     }
     ui.installLabel->setText(installStr);
 

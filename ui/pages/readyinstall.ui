@@ -101,7 +101,7 @@ p, li { white-space: pre-wrap; }
          <item>
           <widget class="QLabel" name="installLabel">
            <property name="text">
-            <string>TextLabel</string>
+            <string>ISO copy</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>

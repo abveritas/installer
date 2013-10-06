@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2008, 2009  Dario Freddi <drf@chakra-project.org>
  *               2008        Lukas Appelhans <l.appelhans@gmx.de>
@@ -393,8 +392,13 @@ void MainWindow::goToNextStep()
         break;
 
     case MainWindow::Partition:
-        m_currentAction = MainWindow::ReadyToInstall;
+        m_currentAction = MainWindow::NetInst;
         setInstallationStep(MainWindow::Partition, MainWindow::Done);
+        break;
+
+    case MainWindow::NetInst:
+        m_currentAction = MainWindow::ReadyToInstall;
+        setInstallationStep(MainWindow::NetInst, MainWindow::Done);
         break;
 
     case MainWindow::ReadyToInstall:
@@ -460,9 +464,14 @@ void MainWindow::goToPreviousStep()
         m_currentAction = MainWindow::CreateUser;
         setInstallationStep(MainWindow::Partition, MainWindow::ToDo);
         break;
+	
+    case MainWindow::NetInst:
+        m_currentAction = MainWindow::Partition;
+        setInstallationStep(MainWindow::NetInst, MainWindow::ToDo);
+        break;
 
     case MainWindow::ReadyToInstall:
-        m_currentAction = MainWindow::Partition;
+        m_currentAction = MainWindow::NetInst;
         setInstallationStep(MainWindow::ReadyToInstall, MainWindow::Done);
         break;
 
