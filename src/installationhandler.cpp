@@ -193,8 +193,8 @@ void InstallationHandler::copyFiles()
     QProcess::execute("killall pacman");
     QProcess::execute("/bin/rm -f /var/lib/pacman/db.lck");
 
-    switch (m_installationType) {
-    case InstallationHandler::Iso: {
+//    switch (m_installationType) {
+//    InstallationHandler::Iso: {
         connect(m_process, SIGNAL(readyRead()), SLOT(parseUnsquashfsOutput()));
         connect(m_process, SIGNAL(finished(int, QProcess::ExitStatus)), SLOT(jobDone(int)));
 
@@ -205,23 +205,23 @@ void InstallationHandler::copyFiles()
 
         emit streamLabel(i18n("Installing the system..."));
         m_process->start("unsquashfs", arguments);
-        break;
-    }
-    case InstallationHandler::NetInst: {
-        connect(m_process, SIGNAL(readyRead()), SLOT(parsePacmanOutput()));
-        connect(m_process, SIGNAL(finished(int, QProcess::ExitStatus)), SLOT(jobDone(int)));
-        qDebug() << "Installing (pacman netinst) started...";
+//        break;
+//    }
+//    case InstallationHandler::NetInst: {
+//        connect(m_process, SIGNAL(readyRead()), SLOT(parsePacmanOutput()));
+//        connect(m_process, SIGNAL(finished(int, QProcess::ExitStatus)), SLOT(jobDone(int)));
+//        qDebug() << "Installing (pacman netinst) started...";
 
-        QString command = QString("%1/netinstall.sh").arg(SCRIPTS_INSTALL_PATH);
-        QStringList arguments;
-        arguments << INSTALLATION_TARGET << m_packages;
+//        QString command = QString("%1/netinstall.sh").arg(SCRIPTS_INSTALL_PATH);
+//        QStringList arguments;
+//        arguments << INSTALLATION_TARGET << m_packages;
 
-        m_process->start(command, arguments);
-        break;
-    }
-    default:
-        break;
-    }
+//        m_process->start(command, arguments);
+//        break;
+//    }
+//    default:
+//        break;
+//    }
 
 }
 
@@ -258,60 +258,60 @@ void InstallationHandler::parseUnsquashfsOutput()
     }
 }
 
-void InstallationHandler::parsePacmanOutput()
-{
-    static int totalPackages = -1;
-    static int downloadCnt = 0;
-    static int installCnt = 0;
-    static QString currentPackage;
+//void InstallationHandler::parsePacmanOutput()
+//{
+//    static int totalPackages = -1;
+//    static int downloadCnt = 0;
+//    static int installCnt = 0;
+//    static QString currentPackage;
 
-    QStringList outlist;
-    while (m_process->canReadLine()) {
-        QString out = m_process->readLine(2048).trimmed();
-        qDebug() << out;
+//    QStringList outlist;
+//    while (m_process->canReadLine()) {
+//        QString out = m_process->readLine(2048).trimmed();
+//        qDebug() << out;
 
-        if (out.startsWith("NETINST")) {
-            QString msg = out.mid(7).trimmed();
-            if (msg.contains("start")) {
-                emit streamLabel(i18n("Starting Netinstall..."));
-            } else if (msg.contains("install")) {
-                emit streamLabel(i18n("Installing packages..."));
-            }
-        } else if (out.startsWith("Targets")) {
-            int start = 9;
-            int end = out.indexOf(')', start);
+//        if (out.startsWith("NETINST")) {
+//            QString msg = out.mid(7).trimmed();
+//            if (msg.contains("start")) {
+//                emit streamLabel(i18n("Starting Netinstall..."));
+//            } else if (msg.contains("install")) {
+//                emit streamLabel(i18n("Installing packages..."));
+//            }
+//        } else if (out.startsWith("Targets")) {
+//            int start = 9;
+//            int end = out.indexOf(')', start);
             // search for number starting at offset 8
-            if (end != -1) {
-                totalPackages = out.mid(start, end - start).toInt();
-                emit streamLabel(i18n("Downloading packages..."));
-            }
-        } else {
-            QRegExp rx("(downloading|installing) (.*)\\.\\.\\.");
-            if (rx.indexIn(out) != -1) {
+//            if (end != -1) {
+//                totalPackages = out.mid(start, end - start).toInt();
+//                emit streamLabel(i18n("Downloading packages..."));
+//            }
+//        } else {
+//            QRegExp rx("(downloading|installing) (.*)\\.\\.\\.");
+//            if (rx.indexIn(out) != -1) {
                 // only take action if it is the first time we see the package
-                if (currentPackage != rx.cap(2)) {
-                    currentPackage = rx.cap(2);
+//                if (currentPackage != rx.cap(2)) {
+//                    currentPackage = rx.cap(2);
 
-                    if (rx.cap(1) == "downloading") {
-                        if (totalPackages > 0) {
-                            ++downloadCnt;
-                        }
-                    } else {
-                        ++installCnt;
-                    }
-                }
-            }
-        }
-    }
+//                    if (rx.cap(1) == "downloading") {
+//                        if (totalPackages > 0) {
+//                            ++downloadCnt;
+//                        }
+//                    } else {
+//                        ++installCnt;
+//                    }
+//                }
+//            }
+//        }
+//    }
 
 
-    if (totalPackages > 0) {
-        double downloadWeight = 60;
-        double installWeight = 40;
-        int percentage = (downloadCnt * downloadWeight) / totalPackages + (installCnt * installWeight) / totalPackages;
-        handleProgress(currAction, percentage);
-    }
-}
+//    if (totalPackages > 0) {
+//        double downloadWeight = 60;
+//        double installWeight = 40;
+//        int percentage = (downloadCnt * downloadWeight) / totalPackages + (installCnt * installWeight) / totalPackages;
+//        handleProgress(currAction, percentage);
+//    }
+//}
 
 void InstallationHandler::reconnectJobSlot()
 {

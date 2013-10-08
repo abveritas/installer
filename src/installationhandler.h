@@ -160,7 +160,7 @@ class InstallationHandler : public QObject
         void postInstallDone(int, QProcess::ExitStatus);
 
         void parseUnsquashfsOutput();
-        void parsePacmanOutput();
+//        void parsePacmanOutput();
 
         void jobDone(int);
         void reconnectJobSlot();

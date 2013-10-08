@@ -153,9 +153,9 @@ void MainWindow::loadPage(InstallationStep page)
         m_ui.stackedWidget->addWidget(new UserCreationPage(this));
         break;
 
-    case MainWindow::NetInst:
-        m_ui.stackedWidget->addWidget(new NetInstPage(this));
-        break;
+//    case MainWindow::NetInst:
+//        m_ui.stackedWidget->addWidget(new NetInstPage(this));
+//        break;
 
     case MainWindow::Partition:
         m_ui.stackedWidget->addWidget(new PartitionPage(this));
@@ -289,15 +289,15 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
         }
         break;
 
-    case MainWindow::NetInst:
-        if (status == MainWindow::Done)
-            m_ui.installationTypeIcon->setPixmap(KIcon("games-endturn").pixmap(18));
-        else if (status == MainWindow::ToDo)
-            m_ui.installationTypeIcon->setPixmap(QPixmap());
-        else if (status == MainWindow::InProgress)
-            m_ui.installationTypeIcon->setMovie(m_movie);
+//    case MainWindow::NetInst:
+//        if (status == MainWindow::Done)
+//            m_ui.installationTypeIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+//        else if (status == MainWindow::ToDo)
+//            m_ui.installationTypeIcon->setPixmap(QPixmap());
+//        else if (status == MainWindow::InProgress)
+//            m_ui.installationTypeIcon->setMovie(m_movie);
 
-        break;
+//        break;
 
     case MainWindow::Partition:
         if (status == MainWindow::Done) {
@@ -392,14 +392,14 @@ void MainWindow::goToNextStep()
         break;
 
     case MainWindow::Partition:
-        m_currentAction = MainWindow::NetInst;
+        m_currentAction = MainWindow::ReadyToInstall;
         setInstallationStep(MainWindow::Partition, MainWindow::Done);
         break;
 
-    case MainWindow::NetInst:
-        m_currentAction = MainWindow::ReadyToInstall;
-        setInstallationStep(MainWindow::NetInst, MainWindow::Done);
-        break;
+//    case MainWindow::NetInst:
+//        m_currentAction = MainWindow::ReadyToInstall;
+//        setInstallationStep(MainWindow::NetInst, MainWindow::Done);
+//        break;
 
     case MainWindow::ReadyToInstall:
         m_currentAction = MainWindow::InstallSystem;
@@ -465,13 +465,13 @@ void MainWindow::goToPreviousStep()
         setInstallationStep(MainWindow::Partition, MainWindow::ToDo);
         break;
 	
-    case MainWindow::NetInst:
-        m_currentAction = MainWindow::Partition;
-        setInstallationStep(MainWindow::NetInst, MainWindow::ToDo);
-        break;
+//    case MainWindow::NetInst:
+//        m_currentAction = MainWindow::Partition;
+//        setInstallationStep(MainWindow::NetInst, MainWindow::ToDo);
+//        break;
 
     case MainWindow::ReadyToInstall:
-        m_currentAction = MainWindow::NetInst;
+        m_currentAction = MainWindow::Partition;
         setInstallationStep(MainWindow::ReadyToInstall, MainWindow::Done);
         break;
 
