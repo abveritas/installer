@@ -253,7 +253,7 @@ If later during this install you choose to install a bootloader, GRUB2 will be i
       <widget class="QPushButton" name="advancedButton">
        <property name="minimumSize">
         <size>
-         <width>0</width>
+         <width>120</width>
          <height>35</height>
         </size>
        </property>
@@ -288,7 +288,7 @@ If later during this install you choose to install a bootloader, GRUB2 will be i
       <widget class="QPushButton" name="formatButton">
        <property name="minimumSize">
         <size>
-         <width>35</width>
+         <width>120</width>
          <height>35</height>
         </size>
        </property>

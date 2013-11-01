@@ -18,11 +18,11 @@ job_pre_install()
 	for p in ${INSTALL_PACKAGES}
 	do
             msg "Installing ${p}"
-            if [[ "${netinst}" == "yes" ]]; then
-                pacman -r ${mountpoint} -S ${p} --noconfirm
-            else
+            #if [[ "${netinst}" == "yes" ]]; then
+            #    pacman -r ${mountpoint} -S ${p} --noconfirm
+            #else
                 pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/${p}-* --noconfirm
-            fi
+            #fi
 	done
 
 	msg_job_done "job_pre_install"

@@ -47,7 +47,7 @@ void ReadyInstallPage::createWidget()
     QString installStr;
     if (m_install->installationType() == InstallationHandler::NetInst) {
         // show selected groups here too
-        installStr = i18n("Network install");
+        installStr = i18n("Offline install");
     } else {
         installStr = i18n("Copy ISO");
     }

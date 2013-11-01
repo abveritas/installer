@@ -1,7 +1,7 @@
 #!/bin/sh
 BASEDIR="`pwd`"   # root of translatable sources
 PROJECT="installer"  # project name
-BUGADDR="bugs@kaosx.us"      # MSGID-Bugs
+BUGADDR="http://github.com/organizations/KaOSx/dashboard/issues"      # MSGID-Bugs
 WDIR="`pwd`/translations"          # working dir
  
 echo "Preparing rc files"
