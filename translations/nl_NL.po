@@ -221,7 +221,7 @@ msgid ""
 "for installing KaOS with Installer (1gb), total available memory: %1 mbytes\n"
 "\n"
 "Continue at your own risk"
-msgstr "Je systeem voldoet niet aan de minimum geheugen vereisten\\nom KaOS met Installer (1gb) te installeren. Totaal beschikbaar geheugen: %1 mbytes\\n\\nVerder gaan op eigen risico"
+msgstr "Je systeem voldoet niet aan de minimum geheugen vereisten\nom KaOS met Installer (1gb) te installeren. Totaal beschikbaar geheugen: %1 mbytes\n\nVerder gaan op eigen risico"
 
 #: src/main.cpp:106
 msgid ""
@@ -239,7 +239,7 @@ msgid ""
 "Installation failed! The following error has been reported: %1.\n"
 "Installer will now quit, please check the installation logs in /tmp\n"
 "or ask for help in our forums."
-msgstr "Installatie mislukt! De volgende fout is gerapporteerd: %1.\\nInstaller wordt nu afgesloten, bekijk de installatielogs in /tmp\\nof vraag om hulp op ons forum."
+msgstr "Installatie mislukt! De volgende fout is gerapporteerd: %1.\nInstaller wordt nu afgesloten, bekijk de installatielogs in /tmp\nof vraag om hulp op ons forum."
 
 #: src/pages/bootloaderpage.cpp:52 src/pages/configpage.cpp:537
 msgid "Installing bootloader..."
@@ -257,7 +257,7 @@ msgstr "Downloaden"
 msgid ""
 "Sorry, you have no internet connection at the moment \n"
 "Will stop bundle(s) installation now"
-msgstr "Helaas, U heeft geen internet op het moment\\nBundle(s) installatie wordt nu gestopt"
+msgstr "Helaas, U heeft geen internet op het moment\nBundle(s) installatie wordt nu gestopt"
 
 #: src/pages/configpage.cpp:352
 msgid "loading package data..."
@@ -318,7 +318,7 @@ msgid ""
 "Bootloader-Setup finished with Exitcode: %1\n"
 "Seems something went wrong. Before reboot it is recommended \n"
 "to check %2/boot/grub/grub.cfg. \n"
-msgstr "Opstartlader-Setup geëindigd met Exitcode: %1\\nEr is iets verkeerd gegaan. Alvorens te herstarten is het aangeraden\\nom %2/boot/grub/grub.cfg te controleren.\\n"
+msgstr "Opstartlader-Setup geëindigd met Exitcode: %1\nEr is iets verkeerd gegaan. Alvorens te herstarten is het aangeraden\nom %2/boot/grub/grub.cfg te controleren.\n"
 
 #: src/pages/licensepage.cpp:53
 msgid "Proprietary ATI Driver"
@@ -505,14 +505,14 @@ msgstr "Nieuwe partitie (%1) op %2"
 
 #: src/pages/readyinstallpage.cpp:75
 msgid "%1 will be used as %2\n"
-msgstr "%1 zal gebruikt worden als %2\\n"
+msgstr "%1 zal gebruikt worden als %2\n"
 
 #: src/pages/readyinstallpage.cpp:79
 msgid ""
 "'%1' will be used as timezone\n"
 "'%2' will be used as language and '%3' will be used as locale\n"
 "Keyboard settings: %4  %5  %6"
-msgstr "'%1' zal gebruikt worden als tijdzone\\n'%2' zal gebruikt worden als taal en '%3' zal gebruikt worden als locale\\nToetsenbord instellingen: %4  %5  %6"
+msgstr "'%1' zal gebruikt worden als tijdzone\n'%2' zal gebruikt worden als taal en '%3' zal gebruikt worden als locale\nToetsenbord instellingen: %4  %5  %6"
 
 #: src/pages/readyinstallpage.cpp:102
 msgid "Continue"
@@ -614,7 +614,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Welcome</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-weight:600; color:#343434;\\\">Welkom</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Welkom</span></p></body></html>"
 
 #. i18n: file: ui/pages/base.ui:198
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -639,7 +639,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Installation</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-weight:600; color:#343434;\\\">Installatie</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Installatie</span></p></body></html>"
 
 #. i18n: file: ui/pages/base.ui:287
 #. i18n: ectx: property (text), widget (QLabel, label_13)
@@ -656,7 +656,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Configuration</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-weight:600; color:#343434;\\\">Configuratie</span></p></body></html>\""
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Configuratie</span></p></body></html>"
 
 #. i18n: file: ui/pages/base.ui:331
 #. i18n: ectx: property (text), widget (QLabel, label_16)
@@ -703,7 +703,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Preparation</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-weight:600; color:#343434;\\\">Voorbereiding</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Voorbereiding</span></p></body></html>"
 
 #. i18n: file: ui/pages/base.ui:597
 #. i18n: ectx: property (text), widget (QPushButton, abortButton)
@@ -734,7 +734,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Bootloader Installation</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#f343434;\\\">Installatie van de opstartlader</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Instalatie van de Opstartlader</span></p></body></html>"
 
 #. i18n: file: ui/pages/bootloader.ui:58
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -744,7 +744,7 @@ msgid ""
 "\n"
 "If you are unsure where you should install the bootloader to, \n"
 "just leave the default value (hd0)."
-msgstr "U kunt nu GRUB installeren als hoofdopstartlader.\\n\\nAls u niet zeker weet waar u de opstartlader moet installeren,\\nneem dan de standaardwaarde (hd0)."
+msgstr "U kunt nu GRUB installeren als hoofdopstartlader.\n\nAls u niet zeker weet waar u de opstartlader moet installeren,\nneem dan de standaardwaarde (hd0)."
 
 #. i18n: file: ui/pages/bootloader.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
@@ -783,7 +783,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Configuration</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Configuratie</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Configuratie</span></p></body></html>"
 
 #. i18n: file: ui/pages/config.ui:119
 #. i18n: ectx: property (text), widget (QCheckBox, usb)
@@ -932,7 +932,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Installation Completed!</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Installatie Afgerond!</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Instalatie Afgerond!</span></p></body></html>"
 
 #. i18n: file: ui/pages/finish.ui:68
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -952,7 +952,7 @@ msgid ""
 "Have Fun!\n"
 "\n"
 "KaOS"
-msgstr "Gefeliciteerd, de installatie is afgerond!\\n\\nWe hopen dat u evenzeer genoten heeft van hetgeen u zover gezien heeft, als wij aan het maken ervan.\\nU kunt nu herstarten in uw geïnstalleerd systeem of u kunt de LiveCD blijven gebruiken.\\n\\nAls u de installatie logs wil bekijken,\\nkijkt u best in /tmp op het livesysteem of in /var/log op het geïnstalleerde systeem.\\n\\nBedankt om KaOS te gebruiken, en zoek ons op de forums, deel uw mening, geef advies;\\nOm het simpel te stellen: Wilt u betrokkken raken? (http://kaosx.us)\\n\\nHave Fun!\\n\\nKaOS\""
+msgstr "Gefeliciteerd, de installatie is afgerond!\n\nWe hopen dat u evenzeer genoten heeft van hetgeen u zover gezien heeft, als wij aan het maken ervan.\nU kunt nu herstarten in uw geïnstalleerd systeem of u kunt de LiveCD blijven gebruiken.\n\nAls u de installatie logs wil bekijken,\nkijkt u best in /tmp op het livesysteem of in /var/log op het geïnstalleerde systeem.\n\nBedankt om KaOS te gebruiken, en zoek ons op de forums, deel uw mening, geef advies;\nOm het simpel te stellen: Wilt u betrokkken raken? (http://kaosx.us)\n\nHave Fun!\n\nKaOS\""
 
 #. i18n: file: ui/pages/finish.ui:105
 #. i18n: ectx: property (text), widget (QPushButton, rebootButton)
@@ -981,7 +981,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Ramdisk Setup</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Ramdisk-instellingen</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Ramdisk-installingen</span></p></body></html>"
 
 #. i18n: file: ui/pages/init.ui:58
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -993,7 +993,7 @@ msgid ""
 "options for special boot methods. If you are unsure on what this means, "
 "simply press the \"Next\" button. Otherwise check out the ramdisk options "
 "below and select the items you need for your system."
-msgstr "Uw hardware zal automatisch worden ingesteld tijden de installatie en de initiële ramdisk-omgeving voor het starten van de Linux-kernel zal worden opgebouwd. Dit alles zal gebeuren zonder dat uw tussenkomst nodig is, maar het kan zijn dat u opties moet instellen voor speciale opstartmethoden. Als u niet zeker weet wat dit betekent, druk op de \\\"Volgende\\\"-knop. Als u het wel weet, bekijk de ramdisk-opties hieronder en kies de opties die u nodig heeft voor uw systeem."
+msgstr "Uw hardware zal automatisch worden ingesteld tijden de installatie en de initiële ramdisk-omgeving voor het starten van de Linux-kernel zal worden opgebouwd. Dit alles zal gebeuren zonder dat uw tussenkomst nodig is, maar het kan zijn dat u opties moet instellen voor speciale opstartmethoden. Als u niet zeker weet wat dit betekent, druk op de \"Volgende\"-knop. Als u het wel weet, bekijk de ramdisk-opties hieronder en kies de opties die u nodig heeft voor uw systeem."
 
 #. i18n: file: ui/pages/init.ui:81
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
@@ -1099,7 +1099,7 @@ msgid ""
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Remember:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#00ff00;\">This is a solid installer, but it has its limitations.</span></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Have fun! - KaOS</span></p></body></html>"
-msgstr " <!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:12pt; font-weight:400; font-style:normal;\\\">\\n<p align=\\\"center\\\" style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-family:'Bitstream Vera Sans'; color:#343434;\\\">Welkom bij de KaOS Installatie!</span></p>\\n<p align=\\\"center\\\" style=\\\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\\\"></p>\\n<p align=\\\"center\\\" style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\\\">Deze installeerder zal u door het proces gidsen om </span></p>\\n<p align=\\\"center\\\" style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\\\">het KaOS live systeem op uw computer te installeren. Na de installatie zal u</span></p>\\n<p align=\\\"center\\\" style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\\\">een gebruiksklaar KaOS systeem hebben.</span></p>\\n<p align=\\\"center\\\" style=\\\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\\\"></p>\\n<p align=\\\"center\\\" style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\\\"> Lees a.u.b. aandachtig alle instructies, begrijp dat LVM, RAID</span></p>\\n<p align=\\\"center\\\" style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\\\"> en geautomatiseerde partitionering op dit moment niet ondersteund worden.</span></p>\\n<p align=\\\"center\\\" style=\\\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\\\"></p>\\n<p align=\\\"center\\\" style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\\\"> Onthou:</span><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\\\"> </span><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#00ff00;\\\">Dit is een solide installeerder, maar het heeft zijn beperkingen</span></p>\\n<p align=\\\"center\\\" style=\\\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\\\"></p>\\n<p align=\\\"center\\\" style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\\\">Veel Plezier! - KaOS</span></p></body></html>"
+msgstr " <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:12pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; color:#343434;\">Welkom bij de KaOS Installatie!</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Deze installeerder zal u door het proces gidsen om </span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">het KaOS live systeem op uw computer te installeren. Na de installatie zal u</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">een gebruiksklaar KaOS systeem hebben.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Lees a.u.b. aandachtig alle instructies, begrijp dat LVM, RAID</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> en geautomatiseerde partitionering op dit moment niet ondersteund worden.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Onthou:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#00ff00;\">Dit is een solide installeerder, maar het heeft zijn beperkingen</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Veel Plezier! - KaOS</span></p></body></html>"
 
 #. i18n: file: ui/pages/keyboard.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Keyboard)
@@ -1116,7 +1116,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Keyboard Setup</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Toetsenbord instellingen</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Toetsenbord instellingen</span></p></body></html>"
 
 #. i18n: file: ui/pages/keyboard.ui:40
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1124,7 +1124,7 @@ msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3
 msgid ""
 "The installer will automatically try to detect your keyboard layout based on the settings you have selected during the boot.\n"
 "You can modify it to your liking, and type a few words to test your layout."
-msgstr "The Installer zal automatisch je toetsenbord indeling proberen te achterhalen door gebruik te maken van de keuze die gemaakt zijn tijdens het opstarten.\\nJe kan dit naar keuze aanpassen, en testen door wat woorden te typen."
+msgstr "De Installer zal automatisch je toetsenbord indeling proberen te achterhalen door gebruik te maken van de keuze die gemaakt zijn tijdens het opstarten.\nJe kan dit naar keuze aanpassen, en testen door wat woorden te typen."
 
 #. i18n: file: ui/pages/keyboard.ui:127
 #. i18n: ectx: property (text), widget (QLabel, lblLanguage)
@@ -1153,7 +1153,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">License Approval</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Goedkeurig van de licentie</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Goedkeurig van de licentie</span></p></body></html>"
 
 #. i18n: file: ui/pages/license.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1198,7 +1198,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Language &amp; Time</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Taal &amp; tijd</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Taal &amp; tijd</span></p></body></html>"
 
 #. i18n: file: ui/pages/locale.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -1257,7 +1257,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Installation Type</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Installatie Type</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Installatie Type</span></p></body></html>"
 
 #. i18n: file: ui/pages/netinst.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1296,7 +1296,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Disk setup</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Schijfindeling</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Schijfindeling</span></p></body></html>"
 
 #. i18n: file: ui/pages/partition.ui:59
 #. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
@@ -1304,7 +1304,7 @@ msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3
 msgid ""
 "Please select a mountpoint for your partitions. No permanent changes to your hard drive will be made when you will press \"Next\". Note: selected partitions are not explicitly formatted. Only those with the green mark are set to be formatted.\n"
 "If later during this install you choose to install a bootloader, GRUB2 will be installed on the same hard drive where your \"/boot\" partition is located."
-msgstr "Selecteer a.u.b. een aankoppelpunt for uw partities. Er worden geen permanente wijzigingen gedaan op uw harde schijf als u \\\"Volgende\\\" klikt. Noot: geselecteerde partities worden niet expliciet geformatteerd.  Enkel die met de groene marker.\\nAls u later tijdens de installatie er voor kiest om een opstartlader te installeren, GRUB2 wordt dan geinstalleerd op de zelfde harde schijf waar uw \\\"/boot\\\" partitie zich bevind."
+msgstr "Selecteer a.u.b. een aankoppelpunt for uw partities. Er worden geen permanente wijzigingen gedaan op uw harde schijf als u \"Volgende\" klikt. Noot: geselecteerde partities worden niet expliciet geformatteerd.  Enkel die met de groene marker.\nAls u later tijdens de installatie er voor kiest om een opstartlader te installeren, GRUB2 wordt dan geinstalleerd op de zelfde harde schijf waar uw \"/boot\" partitie zich bevind."
 
 #. i18n: file: ui/pages/partition.ui:104
 #. i18n: ectx: property (text), widget (QLabel, filesystemLabel)
@@ -1349,7 +1349,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Ready to Install</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Klaar om te installeren</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Klaar om te installeren</span></p></body></html>"
 
 #. i18n: file: ui/pages/readyinstall.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1357,7 +1357,7 @@ msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3
 msgid ""
 "The system will be installed with the following settings. Before continuing,"
 " please review your selections:\n"
-msgstr "Het systeem zal worden geïnstalleerd met de volgende instellingen.  Bekijk uw keuzes nauwkeurig, alvorens verder te gaan:\\n"
+msgstr "Het systeem zal worden geïnstalleerd met de volgende instellingen.  Bekijk uw keuzes nauwkeurig, alvorens verder te gaan:\n"
 
 #. i18n: file: ui/pages/readyinstall.ui:94
 #. i18n: ectx: property (text), widget (QLabel, installTitle)
@@ -1368,7 +1368,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">The following installation will be performed:</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-size:12pt; font-weight:600; color:#343434;\\\">De volgende installatie zal uitgevoerd worden:</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">De volgende installatie zal uitgevoerd worden:</span></p></body></html>"
 
 #. i18n: file: ui/pages/readyinstall.ui:104
 #. i18n: ectx: property (text), widget (QLabel, installLabel)
@@ -1391,7 +1391,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">The following partitions will be used:</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:12pt; font-weight:600; color:#343434;\\\">De volgende partities zullen worden gebruikt:</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">De volgende partities zullen worden gebruikt:</span></p></body></html>"
 
 #. i18n: file: ui/pages/readyinstall.ui:187
 #. i18n: ectx: property (text), widget (QLabel, formatTitel)
@@ -1402,7 +1402,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">The following partitions will be formatted:</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:12pt; font-weight:600; color:#343434;\\\">De volgende partities zullen worden geformatteerd:</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">De volgende partities zullen worden geformatteerd:</span></p></body></html>"
 
 #. i18n: file: ui/pages/readyinstall.ui:238
 #. i18n: ectx: property (text), widget (QLabel, timezoneTitel)
@@ -1413,7 +1413,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Language and timezone settings:</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\\\"><span style=\\\" font-size:12pt; font-weight:600; color:#343434;\\\">Taal en tijdzone instellingen:</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Taal en tijdzone instellingen:</span></p></body></html>"
 
 #. i18n: file: ui/pages/releasenotes.ui:47
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1424,7 +1424,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Release Notes</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Release Notes</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Release Notes</span></p></body></html>"
 
 #. i18n: file: ui/pages/releasenotes.ui:60
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1444,7 +1444,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Create Users</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 4.0//EN\\\" \\\"http://www.w3.org/TR/REC-html40/strict.dtd\\\">\\n<html><head><meta name=\\\"qrichtext\\\" content=\\\"1\\\" /><style type=\\\"text/css\\\">\\np, li { white-space: pre-wrap; }\\n</style></head><body style=\\\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\\\">\\n<p style=\\\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\\\"><span style=\\\" font-size:22pt; font-weight:600; color:#343434;\\\">Gebruikers Aanmaken</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Gebruikers Aanmaken</span></p></body></html>"
 
 #. i18n: file: ui/pages/usercreation.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1540,7 +1540,7 @@ msgid ""
 "<html><head/><body><p>The user name may consist of a lowercase character or "
 "\"_\", followed by up to 31 lowercase characters, digits or \"_\" and "
 "\"-\".</p></body></html>"
-msgstr "<html><head/><body><p>De gebruikersnaam mag enkel uit kleine letters of \\\"_\\\" bestaan, gevolgd door maximum 31 kleine letters, getallen of \\\"_\\\" en \\\"-\\\".</p></body></html>"
+msgstr "<html><head/><body><p>De gebruikersnaam mag enkel uit kleine letters of \"_\" bestaan, gevolgd door maximum 31 kleine letters, getallen of \"_\" en \"-\".</p></body></html>"
 
 #. i18n: file: ui/widgets/userwidget.ui:301
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -1560,7 +1560,7 @@ msgstr "Automatisch Inloggen"
 msgid ""
 "Select to use the above password as \n"
 "the Administrator password"
-msgstr "Selecteer om bovenstaand wachtwoord als\\nhet Administrator wachtwoord te gebruiken"
+msgstr "Selecteer om bovenstaand wachtwoord als\nhet Administrator wachtwoord te gebruiken"
 
 #. i18n: file: ui/widgets/userwidget.ui:433
 #. i18n: ectx: property (text), widget (QLabel, label_5)
