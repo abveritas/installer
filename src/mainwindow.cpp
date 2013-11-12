@@ -236,7 +236,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
 
     case MainWindow::ReleaseNotes:
         if (status == MainWindow::Done) {
-            m_ui.releaseIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+            m_ui.releaseIcon->setPixmap(QPixmap(":/Images/images/check.png"));
         } else if (status == MainWindow::ToDo) {
             m_ui.releaseIcon->setPixmap(QPixmap());
         } else if (status == MainWindow::InProgress) {
@@ -247,7 +247,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
 
      case MainWindow::LicenseApproval:
         if (status == MainWindow::Done) {
-            m_ui.licenseIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+            m_ui.licenseIcon->setPixmap(QPixmap(":/Images/images/check.png"));
         } else if (status == MainWindow::ToDo) {
             m_ui.licenseIcon->setPixmap(QPixmap());
         } else if (status == MainWindow::InProgress) {
@@ -259,7 +259,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
     case MainWindow::Keyboard:
         if (status == MainWindow::Done) {
             m_ui.preparationIcon->setPixmap(QPixmap(":/Images/images/installation-stage-done.png"));
-            m_ui.keyboardIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+            m_ui.keyboardIcon->setPixmap(QPixmap(":/Images/images/check.png"));
         } else if (status == MainWindow::ToDo) {
             m_ui.preparationIcon->setPixmap(QPixmap(":/Images/images/installation-stage-notdone.png"));
             m_ui.keyboardIcon->setPixmap(QPixmap());
@@ -271,7 +271,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
 
     case MainWindow::Language:
         if (status == MainWindow::Done) {
-            m_ui.localeIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+            m_ui.localeIcon->setPixmap(QPixmap(":/Images/images/check.png"));
         } else if (status == MainWindow::ToDo) {
             m_ui.localeIcon->setPixmap(QPixmap());
         } else if (status == MainWindow::InProgress) {
@@ -281,7 +281,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
 
     case MainWindow::CreateUser:
         if (status == MainWindow::Done) {
-            m_ui.createuserIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+            m_ui.createuserIcon->setPixmap(QPixmap(":/Images/images/check.png"));
         } else if (status == MainWindow::ToDo) {
             m_ui.createuserIcon->setPixmap(QPixmap());
         } else if (status == MainWindow::InProgress) {
@@ -291,7 +291,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
 
 //    case MainWindow::NetInst:
 //        if (status == MainWindow::Done)
-//            m_ui.installationTypeIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+//            m_ui.installationTypeIcon->setPixmap(QPixmap(":/Images/images/check.png"));
 //        else if (status == MainWindow::ToDo)
 //            m_ui.installationTypeIcon->setPixmap(QPixmap());
 //        else if (status == MainWindow::InProgress)
@@ -301,7 +301,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
 
     case MainWindow::Partition:
         if (status == MainWindow::Done) {
-            m_ui.partitioningIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+            m_ui.partitioningIcon->setPixmap(QPixmap(":/Images/images/check.png"));
         } else if (status == MainWindow::ToDo) {
             m_ui.partitioningIcon->setPixmap(QPixmap());
         } else if (status == MainWindow::InProgress) {
@@ -312,7 +312,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
     case MainWindow::ReadyToInstall:
         if (status == MainWindow::Done) {
             m_ui.installationIcon->setPixmap(QPixmap(":/Images/images/installation-stage-done.png"));
-            m_ui.readyInstallIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+            m_ui.readyInstallIcon->setPixmap(QPixmap(":/Images/images/check.png"));
         } else if (status == MainWindow::ToDo) {
             m_ui.installationIcon->setPixmap(QPixmap(":/Images/images/installation-stage-notdone.png"));
             m_ui.readyInstallIcon->setPixmap(QPixmap());
@@ -324,7 +324,7 @@ void MainWindow::setInstallationStep(InstallationStep step, StepStatus status)
     case MainWindow::InstallSystem:
         if (status == MainWindow::Done) {
             m_ui.configurationIcon->setPixmap(QPixmap(":/Images/images/installation-stage-done.png"));
-            m_ui.installSystemIcon->setPixmap(KIcon("games-endturn").pixmap(18));
+            m_ui.installSystemIcon->setPixmap(QPixmap(":/Images/images/check.png"));
         } else if (status == MainWindow::ToDo) {
             m_ui.configurationIcon->setPixmap(QPixmap(":/Images/images/installation-stage-notdone.png"));
             m_ui.installSystemIcon->setPixmap(QPixmap());

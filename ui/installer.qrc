@@ -2,6 +2,7 @@
   <qresource prefix="/Images">
     <file>images/busywidget.gif</file>
     <file>images/green-check.png</file>
+    <file>images/check.png</file>
     <file>images/slidehandle.png</file>
     <file>images/lin.png</file>
     <file>images/win.png</file>
