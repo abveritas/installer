@@ -45,5 +45,8 @@
     <file>images/active-page-anim-18.mng</file>
     <file>images/installation-stage-done.png</file>
     <file>images/installation-stage-notdone.png</file>
+    <file>images/back.png</file>
+    <file>images/cancel.png</file>
+    <file>images/next.png</file>
   </qresource>
 </RCC>

@@ -52,11 +52,11 @@ MainWindow::MainWindow(QWidget *parent)
                                                  "</body>"
                                               "</html>"));
 
-    m_ui.abortButton->setIcon(KIcon("dialog-cancel"));
+    m_ui.abortButton->setIcon(QPixmap(":/Images/images/cancel.png"));
     connect(m_ui.abortButton, SIGNAL(clicked()), SLOT(abortInstallation()));
 
-    m_ui.nextButton->setIcon(KIcon("go-next"));
-    m_ui.previousButton->setIcon(KIcon("go-previous"));
+    m_ui.nextButton->setIcon(QPixmap(":/Images/images/next.png"));
+    m_ui.previousButton->setIcon(QPixmap(":/Images/images/back.png"));
 
     m_ui.welcomeIcon->setPixmap(QPixmap(":/Images/images/installation-stage-icon.png"));
     m_ui.preparationIcon->setPixmap(QPixmap(":/Images/images/installation-stage-icon.png"));

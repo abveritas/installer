@@ -76,13 +76,13 @@ int main(int argc, char *argv[])
         memfile.close();               
 
         totalmem.remove(QRegExp("[^\\d]"));
-        uint ram = (totalmem.toUInt() / 1024);
+        uint ram = (totalmem.toUInt() / 1512);
 
         qDebug() << ":: Starting Installer, RAM available for this install: " << ram << " Mbytes";
     
         if (ram < MIN_MEMORY) {
             int m = KMessageBox::warningContinueCancel(0, i18n("Your system does not meet the minimal memory needed\n"
-                    "for installing KaOS with Installer (1gb), total available memory: %1 mbytes\n\n"
+                    "for installing KaOS with Installer (1.5gb), total available memory: %1 mbytes\n\n"
                     "Continue at your own risk", ram));
             if (m == KMessageBox::Cancel)
                 return 0;
