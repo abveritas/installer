@@ -593,6 +593,9 @@ p, li { white-space: pre-wrap; }
            <height>48</height>
           </size>
          </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="text">
           <string>Abort installation</string>
          </property>
@@ -625,6 +628,9 @@ p, li { white-space: pre-wrap; }
            <height>48</height>
           </size>
          </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="text">
           <string comment="Previous Page">Previous</string>
          </property>
@@ -643,6 +649,9 @@ p, li { white-space: pre-wrap; }
            <width>150</width>
            <height>48</height>
           </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
          </property>
          <property name="text">
           <string comment="Next Page">Next</string>
