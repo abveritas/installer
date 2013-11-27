@@ -74,7 +74,7 @@ Buttons
 
 QPushButton {
         background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                          stop: 0 #efefef, stop: 1 #a3a3a3);
+                                          stop: 0 #efefef, stop: 1 #c9c9c9);
         border-style: outset;
         border-width: 1px;
         border-radius: 5px;
@@ -93,7 +93,7 @@ QPushButton::disabled {
 
 QPushButton::hover {
         background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                          stop: 0 #efefef, stop: 1 #8a8a8a);
+                                          stop: 0 #efefef, stop: 1 #a3a3a3);
         border-style: outset;
         border-width: 1px;
         border-radius: 5px;

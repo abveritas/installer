@@ -53,7 +53,7 @@ QStringList s_mountPoints = QStringList() << "None" <<
 // remove separate /usr for now              "/usr" <<
                                              "/home" <<
                                              "/var" <<
-                                             "/tmp" <<
+// remove separate /tmp set in fstab already "/tmp" <<
                                              "/opt" <<
                                              "/etc" <<
                                              "/boot" <<
