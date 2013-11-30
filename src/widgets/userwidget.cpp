@@ -100,9 +100,9 @@ UserWidget::UserWidget(int a_userNumber, QWidget* parent): QWidget(parent)
     m_avatarDialog = new AvatarDialog(parent->parentWidget());
 
     if (number == 0) {
-        autoLogin = true;
+        autoLogin = false;
         useRootPw = true; // set this to true for the first user, so that he can manually set a password for root
-        ui.autoLoginCheckBox->setChecked(true);
+        ui.autoLoginCheckBox->setChecked(false);
         ui.rootUsesUserPwCheckBox->setChecked(false);
         ui.removeUser->setVisible(false);
     } else {
@@ -325,8 +325,8 @@ void UserWidget::setUseRootPassword(const QString& useRootPw_)
 
 void UserWidget::setAutoLogin(const QString& autologin_) {
     if (autologin_.toInt() > 0) {
-        ui.autoLoginCheckBox->setCheckState(Qt::Checked);
-        autoLogin = true;
+        ui.autoLoginCheckBox->setCheckState(Qt::Unchecked);
+        autoLogin = false;
     } else {
         ui.autoLoginCheckBox->setCheckState(Qt::Unchecked);
         autoLogin = false;
