@@ -35,6 +35,7 @@ job_cleanup_l10n()
             do
                     if [ "${l10npkg}" != "$USED_L10N" ] ; then
                             pacman -r ${mountpoint} -Rddn kde-l10n-${l10npkg} --noconfirm
+                            pacman -r ${mountpoint} -Rddn calligra-l10n-${l10npkg} --noconfirm
                     fi
             done
         fi
