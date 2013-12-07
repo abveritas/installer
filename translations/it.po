@@ -3,161 +3,160 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# dagodax <dlvelazquez@gmail.com>, 2013
-# yoyo308 <yoyofv@gmail.com>, 2013
+# forerunner <bincremona@myopera.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: KaOS\n"
 "Report-Msgid-Bugs-To: http://github.com/organizations/KaOSx/dashboard/issues\n"
 "POT-Creation-Date: 2013-11-01 18:34-0400\n"
-"PO-Revision-Date: 2013-12-03 13:51+0000\n"
-"Last-Translator: dagodax <dlvelazquez@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/kaos/language/es/)\n"
+"PO-Revision-Date: 2013-12-04 06:09+0000\n"
+"Last-Translator: forerunner <bincremona@myopera.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/kaos/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/installationhandler.cpp:86
 msgid "Installer was not able to initialize needed path: "
-msgstr "El instalador no ha podido inicializar los directorios necesarios:"
+msgstr "L'installazione non è in grado di utilizzare il percorso individuato:"
 
 #: src/installationhandler.cpp:86
 msgid " , please resolve the issue, and try again."
-msgstr ", por favor resuelva el problema y pruebe nuevamente."
+msgstr ", per favore risolvi il problema e prova di nuovo."
 
 #: src/installationhandler.cpp:183
 msgid "Mounting partitions..."
-msgstr "Montando particiones..."
+msgstr "Puntamento alle partizioni in corso..."
 
 #: src/installationhandler.cpp:191
 msgid "Preparing installation..."
-msgstr "Preparando  instalación..."
+msgstr "Preparazione dell'installazione in corso..."
 
 #: src/installationhandler.cpp:206
 msgid "Installing the system..."
-msgstr "Instalando el sistema..."
+msgstr "Installazione del sistema in corso..."
 
 #: src/installationhandler.cpp:234
 msgid "Error copying files"
-msgstr "Error al copiar los archivos"
+msgstr "Errore durante la copia dei file"
 
 #: src/installationhandler.cpp:237
 msgid "Removing packages whose license has been declined..."
-msgstr "Desinstalando paquetes cuya licencia ha sido rechazada..."
+msgstr "Eliminazione dei pacchetti la cui licenza è stata rifiutata..."
 
 #: src/installationhandler.cpp:330
 msgid "Initializing target..."
-msgstr "Inicializando destino..."
+msgstr "Preparazione obiettivo in corso ..."
 
 #: src/installationhandler.cpp:429
 msgid "Please wait, configuring the new system..."
-msgstr "Por favor espere, configurando el nuevo sistema..."
+msgstr "Attendere per favore, è in atto la configurazione del nuovo sistema... "
 
 #: src/installationhandler.cpp:507
 msgid "Error in Postinstall script. See log for more details"
-msgstr "Error en el script de Postinstalación. Vea el log para mas detalles"
+msgstr "Errore nella procedura di post installazione. Per maggiori dettaglio verificare il file Log"
 
 #: src/installationhandler.cpp:516
 msgid "Creating user accounts..."
-msgstr "Creando cuentas de usuario..."
+msgstr "Creazione account dell'utente in corso..."
 
 #: src/installationhandler.cpp:519
 msgid "Configuring software management..."
-msgstr "Configurando el gestor de software..."
+msgstr "Configurazione del software di gestione in corso..."
 
 #: src/installationhandler.cpp:523
 msgid "Removing unused packages..."
-msgstr "Desinstalando paquetes no usados..."
+msgstr "Eliminazione dei pacchetti non utilizzati in corso..."
 
 #: src/installationhandler.cpp:527
 msgid "Installing additional packages..."
-msgstr "Instalando paquetes adicionales..."
+msgstr "Installazione dei pacchetti aggiuntivi in corso..."
 
 #: src/installationhandler.cpp:531
 msgid "Configuring the display..."
-msgstr "Configurando el monitor..."
+msgstr "configurazione dello schermo in corso..."
 
 #: src/installationhandler.cpp:535
 msgid "Downloading and installing localization packages..."
-msgstr "Descargando e instalando los paquetes de localización..."
+msgstr "Reperimento ed installazione dei pacchetti di localizzazione in corso..."
 
 #: src/installationhandler.cpp:539
 msgid "Creating fstab..."
-msgstr "Creando fstab..."
+msgstr "Creazione del file \"ftab\" in corso..."
 
 #: src/installationhandler.cpp:543
 msgid "Adding extra mountpoints..."
-msgstr "Agregando puntos de montaje extra..."
+msgstr "Aggiunta ulteriori riferimenti a volumi o partizioni in corso..."
 
 #: src/installationhandler.cpp:547
 msgid "Configuring hardware..."
-msgstr "Configurando hardware..."
+msgstr "Configurazione hardware in corso"
 
 #: src/installationhandler.cpp:551
 msgid "Creating initial ramdisk images..."
-msgstr "Creando imágenes de initial ramdisk..."
+msgstr "Creazione dell'iniziale immagine ramdisk in corso..."
 
 #: src/installationhandler.cpp:555
 msgid "Generating locales..."
-msgstr "Generando locales..."
+msgstr "Configurazione file \"locales\" in corso... "
 
 #: src/installationhandler.cpp:559
 msgid "Removing unused localizations..."
-msgstr "Removiendo localizaciones no usadas..."
+msgstr "Eliminazione file di localizzazione non utilizzati in corso..."
 
 #: src/installationhandler.cpp:563
 msgid "Symlinking localtime..."
-msgstr "Creando enlace simbólico a localtime..."
+msgstr "Creazione collegamenti file localtime in corso..."
 
 #: src/installationhandler.cpp:567
 msgid "Setting keymap..."
-msgstr "Configurando mapa de teclado..."
+msgstr "Configurazione della mappa della tastiera in corso..."
 
 #: src/installationhandler.cpp:571
 msgid "Setting hostname..."
-msgstr "Configurando nombre de host..."
+msgstr "Configurazione dell'Hostname in corso..."
 
 #: src/installationhandler.cpp:575
 msgid "Removing unused drivers..."
-msgstr "Desinstalando drivers no usados..."
+msgstr "Eliminazione della configurazione e file per i driver non utilizzati in corso..."
 
 #: src/installationhandler.cpp:579
 msgid "Finishing up..."
-msgstr "Terminando..."
+msgstr "L'installazione è quasi completata..."
 
 #: src/installationhandler.cpp:583
 msgid "Installation complete!"
-msgstr "Instalación completa!"
+msgstr "Installazione completata!"
 
 #: src/installationhandler.cpp:674
 msgid ""
 "Installer was not able to initialize needed directories. Something is very "
 "wrong..."
-msgstr "El instalador no pudo inicializar los directorios necesarios. Algo está muy mal..."
+msgstr "L'installazione non è in grado di utilizzare le cartelle previste, a causa di qualche grave problema..."
 
 #: src/installationhandler.cpp:698
 msgid "Could not mount %1"
-msgstr "No se puede montar %1"
+msgstr "Non posso utilizzare %1"
 
 #: src/installationhandler.h:186
 msgid "No Further details given"
-msgstr "No mas detalles disponibles"
+msgstr "Non vi sono ulteriori dettagli"
 
 #. i18n: file: ui/pages/base.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, Base)
 #: src/main.cpp:44 rc.cpp:3
 msgid "Installer"
-msgstr "Instalador"
+msgstr "Installazione"
 
 #: src/main.cpp:45
 msgid "Graphical Installer for KaOS, forked from the Chakra-Project"
-msgstr "Instalador gráfico para KaOS, adaptado desde el Chakra-Project"
+msgstr "Installazione grafica per KaOS, derivata dall'analoga applicazione della distribuzione Chakra"
 
 #: src/main.cpp:46
 msgid "(c) 2008 - 2012 the Chakra Development Team"
-msgstr "(c) 2008 - 2012 the Chakra Development Team"
+msgstr "(c) 2008 - 2012 the Chakra Development Tea"
 
 #: src/main.cpp:46
 msgid "chakra@chakra-project.org"
@@ -169,7 +168,7 @@ msgstr "Anke Boersma"
 
 #: src/main.cpp:47 src/main.cpp:48
 msgid "Maintainer"
-msgstr "Encargado"
+msgstr "Curatore"
 
 #: src/main.cpp:48
 msgid "Manuel Tortosa"
@@ -182,7 +181,7 @@ msgstr "Dario Freddi"
 #: src/main.cpp:49 src/main.cpp:50 src/main.cpp:53 src/main.cpp:54
 #: src/main.cpp:55
 msgid "Developer"
-msgstr "Desarrollador"
+msgstr "Sviluppatore"
 
 #: src/main.cpp:50
 msgid "Lukas Appelhans"
@@ -194,7 +193,7 @@ msgstr "Jan Mette"
 
 #: src/main.cpp:51
 msgid "PostInstall Backend and Artwork"
-msgstr "Postinstall Backend and Artwork"
+msgstr "PostInstall Backend and Artwork"
 
 #: src/main.cpp:52
 msgid "Phil Miller"
@@ -202,7 +201,7 @@ msgstr "Phil Miller"
 
 #: src/main.cpp:52
 msgid "PostInstall Backend"
-msgstr "Postinstall Backend"
+msgstr "PostInstall Backend"
 
 #: src/main.cpp:53
 msgid "Drake Justice"
@@ -222,136 +221,136 @@ msgid ""
 "for installing KaOS with Installer (1gb), total available memory: %1 mbytes\n"
 "\n"
 "Continue at your own risk"
-msgstr "Su sistema no tiene el mínimo de memoria requerido\npara instalar KaOS (1gb), el total de memoria desponibles es: %1 mbytes\n\nContinue bajo su propio riesgo"
+msgstr "Il tuo sistema non ha la minima memoria RAM necessaria\nper installare KaOS con l'installazione (1gb) grafica, memoria totale disponibile: %1 mbytes\n\nContinuare a proprio rischio "
 
 #: src/main.cpp:106
 msgid ""
 "It looks like your power adaptar is unplugged. Installation is a delicate "
 "and lenghty process, hence it is strongly advised to have your PC connected "
 "to AC to minimize possible risks."
-msgstr "Parece que su cargador de batería está desconectado. La instalación es un proceso largo y delicado, le aconsejamos encarecidamente que conecte su PC a la corriente para minimizar los posibles riesgos."
+msgstr "Alimentazione elettrica non rilevata. Il processo di installazione richiede di avere il PC connesso all'alimentazione al fine di minimizzare il più possibile i rischi di perdita dati."
 
 #: src/mainwindow.cpp:99
 msgid "Do you really want to abort the installation?"
-msgstr "Realmente quiere abortar la instalación?"
+msgstr "Sei sicuro di non voler continuare con l'installazione?"
 
 #: src/mainwindow.cpp:558
 msgid ""
 "Installation failed! The following error has been reported: %1.\n"
 "Installer will now quit, please check the installation logs in /tmp\n"
 "or ask for help in our forums."
-msgstr "La instalación ha fallado! El siguiente error a sido reportado: %1.\nEl instalador terminará ahora, por favor compruebe los logs de instalación en\n/tmp o pida ayuda en nuestro foro."
+msgstr "Il processo di installazione non è andato a buon fine! Il seguente errore è stato rilevato: %1\nL'installazione sarà terminata, per favore controlla il file logs nella cartella /tmp\ne/o chiedi aiuto nel nostro forum. "
 
 #: src/pages/bootloaderpage.cpp:52 src/pages/configpage.cpp:537
 msgid "Installing bootloader..."
-msgstr "Instalando cargador de arranque..."
+msgstr "Installazione del bootloader in corso..."
 
 #: src/pages/bootloaderpage.cpp:82
 msgid "Creating OS list..."
-msgstr "Creando la lista de Sistemas Operativos..."
+msgstr "Creazione lista dei Sistemi Operativi rilevati in corso..."
 
 #: src/pages/configpage.cpp:156 src/pages/configpage.cpp:366
 msgid "Downloading"
-msgstr "Descargando"
+msgstr "Scaricamento file dalla rete in corso..."
 
 #: src/pages/configpage.cpp:266
 msgid ""
 "Sorry, you have no internet connection at the moment \n"
 "Will stop bundle(s) installation now"
-msgstr "Lo siento, no tiene conexión a internet en este momento.\nDetendremos la instalación de paquetes ahora."
+msgstr "Mi dispiace, non la connessione verso Internet non è al momento funzionante\nL'installazione dei gruppi di pacchetti è stata terminata"
 
 #: src/pages/configpage.cpp:352
 msgid "loading package data..."
-msgstr "cargando datos de paquetes..."
+msgstr "verifica dati del pacchetto in corso..."
 
 #: src/pages/configpage.cpp:353
 msgid "Loading package data..."
-msgstr "Cargando datos de paquetes..."
+msgstr "Verifica dati del pacchetto in corso..."
 
 #: src/pages/configpage.cpp:354
 msgid "checking dependencies..."
-msgstr "comprobando dependencias..."
+msgstr "verifica dipendenze in corso..."
 
 #: src/pages/configpage.cpp:355
 msgid "Checking dependencies..."
-msgstr "Comprobando dependencias..."
+msgstr "Verifica dipendenze in corso..."
 
 #: src/pages/configpage.cpp:356
 msgid "resolving dependencies..."
-msgstr "resolviendo dependencias..."
+msgstr "risoluzione dipendenze in corso..."
 
 #: src/pages/configpage.cpp:357
 msgid "Resolving dependencies..."
-msgstr "Resolviendo dependencias..."
+msgstr "Risoluzione dipendenze in corso..."
 
 #: src/pages/configpage.cpp:358
 msgid "checking package integrity..."
-msgstr "comprobando la integridad de los paquetes..."
+msgstr "verifica dell'integrità dei pacchetti in corso..."
 
 #: src/pages/configpage.cpp:359
 msgid "Checking package integrity..."
-msgstr "Comprobando la integridad de los paquetes..."
+msgstr "Verifica dell'integrità dei pacchetti in corso..."
 
 #: src/pages/configpage.cpp:360
 msgid "Total Download Size:"
-msgstr "Tamaño total de descarga:"
+msgstr "Dimensione totale dei pacchetti scaricati:"
 
 #. i18n: file: ui/pages/config.ui:928
 #. i18n: ectx: property (text), widget (QPushButton, downloadBundlesButton)
 #: src/pages/configpage.cpp:420 rc.cpp:169
 msgid "Download Popular Bundles"
-msgstr "Descargar paquetes populares"
+msgstr "Reperimento gruppi di pacchetti popolari"
 
 #. i18n: file: ui/pages/config.ui:906
 #. i18n: ectx: property (text), widget (QPushButton, bootloaderSettingsButton)
 #: src/pages/configpage.cpp:433 rc.cpp:166
 msgid "Bootloader Settings"
-msgstr "Configuración de cargador de arranque"
+msgstr "Cconfigurazione dei parametri del bootloader"
 
 #. i18n: file: ui/pages/config.ui:867
 #. i18n: ectx: property (text), widget (QPushButton, initRamDiskButton)
 #: src/pages/configpage.cpp:446 rc.cpp:160
 msgid "Customize Initial Ramdisk"
-msgstr "Personalizar Initial Ramdisk"
+msgstr "Personalizzazione file Ramdisk"
 
 #: src/pages/configpage.cpp:509
 msgid ""
 "Bootloader-Setup finished with Exitcode: %1\n"
 "Seems something went wrong. Before reboot it is recommended \n"
 "to check %2/boot/grub/grub.cfg. \n"
-msgstr "La instalación del cargador de arranque terminó con Exitcode: %1\nParece que algo salió mal. Antes de reiniciar el sistema es recomendable\nque revise el archivo %2/boot/grub/grub.cfg\n"
+msgstr "Il processo di configurazione del boot loadeer è stato terminato con codice di errore:%1\nQualcosa non ha funzionato correttamente. Prima di riavviare si raccomanda di\nverificare %2/boot/grub/grub.cfg.\n"
 
 #: src/pages/licensepage.cpp:53
 msgid "Proprietary ATI Driver"
-msgstr "Driver ATI propietario"
+msgstr "ATI driver propretario"
 
 #: src/pages/licensepage.cpp:57
 msgid "Proprietary NVidia Driver"
-msgstr "Driver NVidia Propietario"
+msgstr "NVIDIA driver propretario"
 
 #: src/pages/licensepage.cpp:119
 msgid "Accept license for: "
-msgstr "Acepte la licencia para:"
+msgstr "Accettare licenza per:"
 
 #: src/pages/localepage.cpp:326
 msgid "You need to select a timezone"
-msgstr "Necesita seleccionar una zona horaria"
+msgstr "Occorre selezionare una time zone per la configurazine del fuso orario"
 
 #: src/pages/netinstpage.cpp:22
 msgid "Default"
-msgstr "Por defecto"
+msgstr "Predefinito"
 
 #: src/pages/netinstpage.cpp:22
 msgid "Default group"
-msgstr "Grupo por defecto"
+msgstr "Gruppo predefinito"
 
 #: src/pages/netinstpage.cpp:23
 msgid "Wireless"
-msgstr "Wireless"
+msgstr "Senza fili"
 
 #: src/pages/netinstpage.cpp:23
 msgid "Tools for wireless connections"
-msgstr "Herramientas para conexiones wireless:"
+msgstr "Strumenti per le connessioni senza fili"
 
 #: src/pages/netinstpage.cpp:24
 msgid "GTK"
@@ -359,31 +358,31 @@ msgstr "GTK"
 
 #: src/pages/netinstpage.cpp:24
 msgid "Applications that depend on GTK"
-msgstr "Applicaciones que dependen de GTK"
+msgstr "Applicazioni che dipendono dalle librerie GTK"
 
 #: src/pages/netinstpage.cpp:25
 msgid "Graphics"
-msgstr "Gráficos"
+msgstr "Grafica"
 
 #: src/pages/netinstpage.cpp:25
 msgid "Applications to work with graphics"
-msgstr "Aplicaciones que trabajan con gráficos"
+msgstr "Applicazioni per lavorare con la grafica"
 
 #: src/pages/netinstpage.cpp:26
 msgid "Burning"
-msgstr "Grabación"
+msgstr "Masterizzare"
 
 #: src/pages/netinstpage.cpp:26
 msgid "Set of packages for disc burning"
-msgstr "Grupo de paquetes para grabar discos"
+msgstr "Gruppo di pacchetti per la masterizzazione dei CD/DVD"
 
 #: src/pages/netinstpage.cpp:27
 msgid "Printing"
-msgstr "Impresión"
+msgstr "Stampa"
 
 #: src/pages/netinstpage.cpp:27
 msgid "Print much?"
-msgstr "Imprime mucho?"
+msgstr "Quante stampe?"
 
 #: src/pages/netinstpage.cpp:28
 msgid "Multimedia"
@@ -391,187 +390,187 @@ msgstr "Multimedia"
 
 #: src/pages/netinstpage.cpp:28
 msgid "Music and video players"
-msgstr "Reproductores de música y video"
+msgstr "Musica e riproduttori di filmati"
 
 #: src/pages/netinstpage.cpp:29
 msgid "Gtk Integration"
-msgstr "Integración GTK"
+msgstr "Integrazione librerie GTK"
 
 #: src/pages/netinstpage.cpp:29
 msgid "Integrate Gtk applications with plasma"
-msgstr "Integración de aplicaciones GTK con plasma"
+msgstr "Applicationi GTK integrate con l'ambiente PLASMA"
 
 #: src/pages/netinstpage.cpp:30
 msgid "Miscelaneous"
-msgstr "Miscelaneas"
+msgstr "Assortito"
 
 #: src/pages/netinstpage.cpp:30
 msgid "Useful tools and apps"
-msgstr "Herramientas y aplicaciones útiles"
+msgstr "Strumenti e Applicazioni utili"
 
 #: src/pages/netinstpage.cpp:40
 msgid "Network Installation. (Disabled: not an available option at this time)"
-msgstr "Instalación de red. (Desabilitado: no es una opción disponible en este momento)"
+msgstr "Installazione da rete. (Disabilitata: non è un opzione disponibile al momento)"
 
 #: src/pages/partitionpage.cpp:91
 msgid "Please enter a custom mountpoint"
-msgstr "Por favor ingrese un punto de montaje personalizado"
+msgstr "Per favore digita un punto di montaggio personalizzato"
 
 #: src/pages/partitionpage.cpp:103
 msgid "The mount point must start with /"
-msgstr "El punto de de montaje debe comenzar con /"
+msgstr "Il punto di montaggio deve iniziare con /"
 
 #: src/pages/partitionpage.cpp:104
 msgid "Error"
-msgstr "Error"
+msgstr "Errore"
 
 #: src/pages/partitionpage.cpp:198
 msgid "New"
-msgstr "Nuevo"
+msgstr "Nuovo"
 
 #: src/pages/partitionpage.cpp:198
 msgid "Unsupported"
-msgstr "No soportado"
+msgstr "Non Supportato"
 
 #: src/pages/partitionpage.cpp:426
 msgid "Loading partitions..."
-msgstr "Cargando particiones..."
+msgstr "Lettura dati delle partizioni in corso..."
 
 #: src/pages/partitionpage.cpp:675
 msgid "Extended"
-msgstr "Extendida"
+msgstr "Esteso"
 
 #: src/pages/partitionpage.cpp:825
 msgid ""
 "Installer detected target partitions which are mounted. Do you want "
 "Installer to unmount them?"
-msgstr "El instalador detectó particiones de destino que están montadas. Quiere que el instalador las desmonte?"
+msgstr "L'Installazione a rilevato che la partizioni selezionate sono montate. Vuoi che sia l'Installazione ad effettuare l'operazione di unmount?"
 
 #: src/pages/partitionpage.cpp:841
 msgid ""
 "Installer failed to unmount a partition which is target for the "
 "installation. You need to unmount the partitions manually before you can "
 "proceed."
-msgstr "El instalador falló al desmontar una partición destino para la instalación. Necesita desmontar las particiones manualmente antes de proceder."
+msgstr "L'Installazione non riesce a smontare la partizione selezionata per l'installazione di KaOS. E' necessario smontare manualmante la partizione prima di poter continuare."
 
 #: src/pages/partitionpage.cpp:843
 msgid "Target partitions mounted"
-msgstr "Particiones destino montadas"
+msgstr "Le partizioni selezionate sono montate"
 
 #: src/pages/partitionpage.cpp:854
 msgid ""
 "The partition you have chosen to mount as '/' is too small. It should have a"
 " capacity of at least %1 for a successful installation."
-msgstr "La partición que ha elegido como '/' es muy pequeña. Esta debe tener una capacidad de al menos %1 para una correcta instalación."
+msgstr "La partizione selezionata come '/' è troppo piccola. E' necessario avere una quantità di spazio maggiore di %1 per poter continuare con l'installazione. "
 
 #: src/pages/partitionpage.cpp:857 src/pages/partitionpage.cpp:897
 msgid "Target's capacity not sufficient"
-msgstr "La capacidad de destino no es suficiente."
+msgstr "Spazio disco della partizione selezionata non sufficiente"
 
 #: src/pages/partitionpage.cpp:877
 msgid ""
 "The partition you have chosen to mount as '%1' is not marked for formatting."
 " This might create problems. Do you still want to continue without formating"
 " it?"
-msgstr "La partición que ha elegido para montar como '%1' no está marcada para formatear. Esto puede crear problemas. ¿Aún quiere continuar sin formatearla?"
+msgstr "La partizione individuata come '%1' non è stata selezionata per la formattazione. Questo potrebbe essere problematico. Sei sicuro di continuare senza formattare?"
 
 #: src/pages/partitionpage.cpp:895
 msgid ""
 "You have selected '%1' as a mountpoint, which is not valid. A valid "
 "mountpoint always starts with '/' and represents a directory on disk"
-msgstr "Ha seleccionado '%1' como un punto de montaje, este no es válido. Un punto de montaje válido siempre comienza con '/' y representa un dicectorio en el disco."
+msgstr "Hai selezionato '%1' che non è un valido punto di mount. Un punto di mount validi inizia sempre con '/' e rappresenta l'origine delle cartelle su un disco"
 
 #: src/pages/partitionpage.cpp:906
 msgid ""
 "You need to select a root partition ('/') to proceed with the installation. "
-msgstr "Necesita seleccionar una partición ('/') para proceder con la instalación."
+msgstr "E' necessario selezionare a partizione di root (origine) per procedere pcon l'installazione."
 
 #: src/pages/partitionpage.cpp:927
 msgid ""
 "When using a GPT Partition Table you need to have a unformatted partition "
 "with the bios_grub flag!"
-msgstr "Cuando usa una Tabla de Partición GPT necesita tener una partición sin formato con la bandera bios_grub!"
+msgstr "In caso di GPT Partition Table è necessario avere la disponibilità di una partizione non formattata e configurata con l'indicatore bios_grub!"
 
 #: src/pages/readyinstallpage.cpp:50
 msgid "Offline install"
-msgstr "Instalación offline"
+msgstr "Installazione non in linea"
 
 #: src/pages/readyinstallpage.cpp:52
 msgid "Copy ISO"
-msgstr "Copiar ISO"
+msgstr "Copia ISO"
 
 #: src/pages/readyinstallpage.cpp:73
 msgid "New partition (%1) on %2"
-msgstr "Nueva partición (%1) en %2"
+msgstr "Nuova partizione (%1) su %2"
 
 #: src/pages/readyinstallpage.cpp:75
 msgid "%1 will be used as %2\n"
-msgstr "%1 será usado como %2\n"
+msgstr "%1 sarà utilizzata come %2\n"
 
 #: src/pages/readyinstallpage.cpp:79
 msgid ""
 "'%1' will be used as timezone\n"
 "'%2' will be used as language and '%3' will be used as locale\n"
 "Keyboard settings: %4  %5  %6"
-msgstr "'%1' será usada como zona horaria\n'%2' será usado como lenguaje y '%3' será usado como locale\nConfiguración de teclado: %4 %5 %6"
+msgstr "'%1' sarà utilizzata come timezone\n'%2' sarà utilizzata come lingua e '%3' sarà utilizzata come localizzazione\nConfigurazione della tastiera: %4 %5 %6"
 
 #: src/pages/readyinstallpage.cpp:102
 msgid "Continue"
-msgstr "Continuar"
+msgstr "Continua"
 
 #: src/pages/readyinstallpage.cpp:106
 msgid ""
 "The following partitions appear to be mounted: %1. To let the installation "
 "happen correctly, Installer will now unmount them."
-msgstr "Las siguientes particiones parecen estar montadas: %1. Para que la instalación se realice correctamente, el instalador intentará desmontarlas."
+msgstr "E' stato rilevato che le seguenti partizioni sono state montate: %1. Al fine di continuare con l'Installazione saranno automaticamente smontate. "
 
 #: src/pages/usercreationpage.cpp:163
 msgid "You must give at least one login name."
-msgstr "Debe ingresar al menos un nombre de inicio de sesión."
+msgstr "Devi fornire almen un nome per il login."
 
 #: src/pages/usercreationpage.cpp:167
 msgid "Root Passwords cannot be empty."
-msgstr "Las contraseñas de Root no pueden quedar vacías."
+msgstr "il campo Root Password non può essere vuoto."
 
 #: src/pages/usercreationpage.cpp:171
 msgid "Root Passwords do not match..."
-msgstr "Las contraseñas de root no coinciden..."
+msgstr "Root password non sono uguali"
 
 #: src/pages/usercreationpage.cpp:185
 msgid "Login names cannot be empty."
-msgstr "Los nombres de inicio de sesión no pueden quedar vacíos."
+msgstr "Il campo Login name non può essere vuoto."
 
 #: src/pages/usercreationpage.cpp:189
 msgid "Please check your username.."
-msgstr "Por favor compruebe su nombre de usuario..."
+msgstr "Per favore controlla il tuo user name..."
 
 #: src/pages/usercreationpage.cpp:194
 msgid "Login names must be unique."
-msgstr "El nombre de usuario debe ser único."
+msgstr "Il nome di login deve essere unico."
 
 #: src/pages/usercreationpage.cpp:199
 msgid "Passwords cannot be empty."
-msgstr "Las contraseña no pueden quedar vacías."
+msgstr "Il campo Password non può essere vuoto."
 
 #: src/pages/usercreationpage.cpp:203
 msgid "Passwords do not match..."
-msgstr "Las contraseñas no coinciden..."
+msgstr "Le password non sono uguali..."
 
 #: src/pmhandler.cpp:360
 msgid "Preparing hard drive for installation..."
-msgstr "Preparando disco duro para la instalación..."
+msgstr "L'Hard Disk viene configurato per l'installazione..."
 
 #: src/pmhandler.cpp:381
 msgid "Analyzing disk..."
-msgstr "Analizando disco..."
+msgstr "Analisi del disco in corso..."
 
 #: src/pmhandler.cpp:445
 msgid "There was an error while formatting partitions"
-msgstr "Hubo un error mientras se formateaban las particiones"
+msgstr "E' stato rilevato un errore durante la formattazione delle partizioni"
 
 #: src/widgets/avatardialog.cpp:54 src/widgets/avatardialog.cpp:73
 msgid "Custom"
-msgstr "Personalizar"
+msgstr "Personalizzato"
 
 #: src/widgets/kbpreview/kbpreviewframe.cpp:333
 #: src/widgets/kbpreview/kbpreviewframe.cpp:353
@@ -588,23 +587,23 @@ msgstr "AltGr"
 
 #: src/widgets/kbpreview/kbpreviewframe.cpp:395
 msgid "No preview found"
-msgstr "No se encontró vista previa"
+msgstr "Anteprima non trovata"
 
 #: src/widgets/userwidget.cpp:62
 msgid "Usernames can not contain uppercase letters."
-msgstr "Los nombres de usuario no pueden contener letras mayúsculas"
+msgstr "Il nome dell'utente non può contenere maiuscole."
 
 #: src/widgets/userwidget.cpp:64
 msgid "Usernames can not contain spaces."
-msgstr "Los nombres de usuarios no pueden contener espacios."
+msgstr "Il nome dell'utente non può contenere spazi."
 
 #: src/widgets/userwidget.cpp:66
 msgid "%1 is not a valid character"
-msgstr "%1 no es un caracter válido"
+msgstr "%1 non è un carattere valido"
 
 #: src/widgets/userwidget.cpp:72
 msgid "%1 is already used by a system user. Please choose another name."
-msgstr "%1 está siendo usado por un usuario del sistema. Por favor elija otro nombre"
+msgstr "%1 è sempre utilizzato come un utente di sistema. Per favore scegliere un altro nome."
 
 #. i18n: file: ui/pages/base.ui:172
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -615,7 +614,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Welcome</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Bienvenido</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//IT\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Benvenuto</span></p></body></html>"
 
 #. i18n: file: ui/pages/base.ui:198
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -623,13 +622,13 @@ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/T
 #. i18n: ectx: property (windowTitle), widget (QWidget, ReleaseNotes)
 #: rc.cpp:13 rc.cpp:461
 msgid "Release Notes"
-msgstr "Notas de versión"
+msgstr "Note di Rilascio"
 
 #. i18n: file: ui/pages/base.ui:224
 #. i18n: ectx: property (text), widget (QLabel, licenseLabel)
 #: rc.cpp:16
 msgid "License Approval"
-msgstr "Aprobación de licencia"
+msgstr "Approvazione Licenza"
 
 #. i18n: file: ui/pages/base.ui:261
 #. i18n: ectx: property (text), widget (QLabel, label_11)
@@ -640,13 +639,13 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Installation</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Instalación</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Installazione</span></p></body></html>"
 
 #. i18n: file: ui/pages/base.ui:287
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: rc.cpp:26
 msgid "Install System"
-msgstr "Instalar Sistema"
+msgstr "Installazione Sistema"
 
 #. i18n: file: ui/pages/base.ui:324
 #. i18n: ectx: property (text), widget (QLabel, label_14)
@@ -657,43 +656,43 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Configuration</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Configuración</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Configurazione</span></p></body></html>"
 
 #. i18n: file: ui/pages/base.ui:331
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #: rc.cpp:36
 msgid "Reboot / Enjoy"
-msgstr "Reinicie / Disfrute"
+msgstr "Riavvia / Buon  Dvertimento"
 
 #. i18n: file: ui/pages/base.ui:410
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: rc.cpp:39
 msgid "Language & Time"
-msgstr "Idioma y Hora"
+msgstr "Linguaggio e Tempo"
 
 #. i18n: file: ui/pages/base.ui:443
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: rc.cpp:42
 msgid "Create Users"
-msgstr "Crear Usuarios"
+msgstr "Creazione Utenti"
 
 #. i18n: file: ui/pages/base.ui:469
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: rc.cpp:45
 msgid "Ready to Install"
-msgstr "Listo para instalar"
+msgstr "Pronto per l'Installazione"
 
 #. i18n: file: ui/pages/base.ui:514
 #. i18n: ectx: property (text), widget (QLabel, keyboardLabel)
 #: rc.cpp:48
 msgid "Keyboard"
-msgstr "Teclado"
+msgstr "Tastiera"
 
 #. i18n: file: ui/pages/base.ui:521
 #. i18n: ectx: property (text), widget (QLabel, label_25)
 #: rc.cpp:51
 msgid "Disk setup"
-msgstr "Configuración de disco"
+msgstr "Configurazione Disco"
 
 #. i18n: file: ui/pages/base.ui:532
 #. i18n: ectx: property (text), widget (QLabel, label_26)
@@ -704,27 +703,27 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Preparation</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Preparación</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//IT\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Preparazione</span></p></body></html>"
 
 #. i18n: file: ui/pages/base.ui:597
 #. i18n: ectx: property (text), widget (QPushButton, abortButton)
 #: rc.cpp:61
 msgid "Abort installation"
-msgstr "Abortar instalación"
+msgstr "Installazione non conclusa correttamente"
 
 #. i18n: file: ui/pages/base.ui:629
 #. i18n: ectx: property (text), widget (QPushButton, previousButton)
 #: rc.cpp:64
 msgctxt "Previous Page"
 msgid "Previous"
-msgstr "Anterior"
+msgstr "Precedente"
 
 #. i18n: file: ui/pages/base.ui:648
 #. i18n: ectx: property (text), widget (QPushButton, nextButton)
 #: rc.cpp:67
 msgctxt "Next Page"
 msgid "Next"
-msgstr "Siguiente"
+msgstr "Prossimo"
 
 #. i18n: file: ui/pages/bootloader.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -735,7 +734,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Bootloader Installation</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Instalación de Cargador de Arranque</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Installazione Bootloader</span></p></body></html>"
 
 #. i18n: file: ui/pages/bootloader.ui:58
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -745,13 +744,13 @@ msgid ""
 "\n"
 "If you are unsure where you should install the bootloader to, \n"
 "just leave the default value (hd0)."
-msgstr "Ahora puede instalar GRUB como su principal cargador de arranque\n\nSi no está seguro de donde debería instalar el cargador de arranque,\nsolo deje los valores por defecto (hd0)"
+msgstr "Puoi adesso installare GRUB come principale Bootloader\n\nSe non sei sicuro della modalità di installazione del bootloader\nlascia il valore predefinito (hd0)."
 
 #. i18n: file: ui/pages/bootloader.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #: rc.cpp:83
 msgid "Install Bootloader"
-msgstr "Instalar Cargador de Arranque"
+msgstr "Installazione bootloader"
 
 #. i18n: file: ui/pages/bootloader.ui:89
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
@@ -761,13 +760,13 @@ msgstr "Instalar Cargador de Arranque"
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: rc.cpp:86 rc.cpp:392 rc.cpp:395
 msgid "Advanced..."
-msgstr "Avanzado..."
+msgstr "Avanzato..."
 
 #. i18n: file: ui/pages/bootloader.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:89
 msgid "Install to:"
-msgstr "Instalar en:"
+msgstr "installazione su:"
 
 #. i18n: file: ui/pages/bootloader.ui:142
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit)
@@ -784,7 +783,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Configuration</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Configuración</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Configurazione</span></p></body></html>"
 
 #. i18n: file: ui/pages/config.ui:119
 #. i18n: ectx: property (text), widget (QCheckBox, usb)
@@ -796,13 +795,13 @@ msgstr "USB"
 #. i18n: ectx: property (text), widget (QCheckBox, nfs)
 #: rc.cpp:105
 msgid "NFS Shares"
-msgstr "NFS Compartición"
+msgstr "Condivizione NFS"
 
 #. i18n: file: ui/pages/config.ui:133
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:108
 msgid "Activate support for booting from:"
-msgstr "Activar soporte para arranque desde:"
+msgstr "Attivazione del supporto per boot da:"
 
 #. i18n: file: ui/pages/config.ui:140
 #. i18n: ectx: property (text), widget (QCheckBox, firewire)
@@ -820,20 +819,20 @@ msgstr "Software Raid Arrays"
 #. i18n: ectx: property (text), widget (QCheckBox, lvm2)
 #: rc.cpp:117
 msgid "LVM2 Volumes"
-msgstr "Volúmenes LVM2"
+msgstr "Volumi LVM2 "
 
 #. i18n: file: ui/pages/config.ui:161
 #. i18n: ectx: property (text), widget (QCheckBox, encrypted)
 #: rc.cpp:120
 msgid "Encrypted Volumes"
-msgstr "Volúmenes encriptados"
+msgstr "Volumi criptati"
 
 #. i18n: file: ui/pages/config.ui:180
 #. i18n: ectx: property (text), widget (QPushButton,
 #. generateInitRamDiskButton)
 #: rc.cpp:123
 msgid "Generate Initial Ramdisk"
-msgstr "Generar Initial Ramdisk"
+msgstr "Generazione Iniziale Ramdisk in corso"
 
 #. i18n: file: ui/pages/config.ui:216
 #. i18n: ectx: property (text), widget (QCheckBox, mdp)
@@ -851,7 +850,7 @@ msgstr "PCMCIA"
 #. i18n: ectx: property (text), widget (QPushButton, bundlesDownloadButton)
 #: rc.cpp:132
 msgid "Download"
-msgstr "Descargar"
+msgstr "Scaricamento"
 
 #. i18n: file: ui/pages/config.ui:408
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -869,19 +868,19 @@ msgstr "Mac"
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:141
 msgid "Windows"
-msgstr "Windows"
+msgstr "Windows (Finestre....)"
 
 #. i18n: file: ui/pages/config.ui:564
 #. i18n: ectx: property (text), widget (QPushButton, colorizeButton)
 #: rc.cpp:144
 msgid "Colorize"
-msgstr "Colorear"
+msgstr "Colorato"
 
 #. i18n: file: ui/pages/config.ui:679
 #. i18n: ectx: property (text), widget (QCheckBox, bootloaderCheckBox)
 #: rc.cpp:147
 msgid "Install GRUB2"
-msgstr "Instalar GRUB2"
+msgstr "Installazione GRUB2"
 
 #. i18n: file: ui/pages/config.ui:690
 #. i18n: ectx: property (text), widget (QLabel, bootloaderLabel)
@@ -889,7 +888,7 @@ msgstr "Instalar GRUB2"
 msgid ""
 "You can now install GRUB2 as your main bootloader. \n"
 "GRUB2 will be installed on the same hard drive where your \"/boot\" folder is located."
-msgstr "Ahora puede instalar GRUB2 como su cargador de arranque principal.\nGRUB2 será instalado en el mismo disco rígido donde está localizado el directorio \"/boot\"."
+msgstr "Puoi adesso installare GRUB2 come bootloader principale.\nGRUB2 sarà installato sulla stesso hard disk dove si trova la cartella \"/boot\"."
 
 #. i18n: file: ui/pages/config.ui:759
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
@@ -900,19 +899,19 @@ msgstr "Ahora puede instalar GRUB2 como su cargador de arranque principal.\nGRUB
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #: rc.cpp:154 rc.cpp:386 rc.cpp:499
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Cancella"
 
 #. i18n: file: ui/pages/config.ui:839
 #. i18n: ectx: property (text), widget (QPushButton, changeAppearanceButton)
 #: rc.cpp:157
 msgid "Change System Appearance"
-msgstr "Cambiar la apariencia del sistema"
+msgstr "Modifica della modalità grafica di presentazione del sistema"
 
 #. i18n: file: ui/pages/config.ui:877
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:163
 msgid "Advanced Options"
-msgstr "Opciones Avanzadas"
+msgstr "Opzioni avanzate"
 
 #. i18n: file: ui/pages/config.ui:940
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -922,7 +921,7 @@ msgid ""
 "extra options like creating initial ramfs for booting from an usb device or "
 "using an existing bootloader to add KaOS to (not having this Installer "
 "install GRUB2). "
-msgstr "Su nuevo sistema KaOS está listo. Aquí puede elegir opciones avanzadas extras como crear initial ramfs para arrancar desde un dispositivo usb o usando un cargador de arranque existente al cual agregarle KaOS (no teniendo que instalar GRUB2)."
+msgstr "Il tuo nuovo sistema operativo KaOS è pronto. Adesso puoi scegliere delle avanzate opzioni di configurazione come la creazione di file ramfs (initrd) per l'avvio da un disco USB o utilizzare un esistente bootloader a cui aggiungere KaOS (scegliendo di non installare GRUB2)."
 
 #. i18n: file: ui/pages/finish.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -933,7 +932,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Installation Completed!</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Instalación Terminada!</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Installatione Completata!</span></p></body></html>"
 
 #. i18n: file: ui/pages/finish.ui:68
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -953,25 +952,25 @@ msgid ""
 "Have Fun!\n"
 "\n"
 "KaOS"
-msgstr "Felicitaciones, la instalación ha terminado!\n\nEsperamos que haya disfrutado de lo que ha visto hasta ahora, tanto como nosotros hemos disfrutado creándolo.\nAhora puede reiniciar en el sistema instalado o seguir usando el LiveCD.\n\nEn caso de que quiera comprobar los logs de instalación,\ndele una mirada en /tmp en el sistema vivo o en /var/log en el sistema instalado.\n\nGracias por usar KaOS. Manténgase en contacto con nosotros en los foros, comparta opiniones, de consejos; para ponerlo simple: Quiere participar? (http://kaosx.us)\n\nDiviértase!\n\nKaOS"
+msgstr "Cmplimenti l'installazione è stata completata!\n\nSperiamo che ti sia divertito con quello che hai visto così come noi ci siamo divertiti a crearlo.\nAdesso puo riavviare o continuare a utilizzare il LiveDVD.\n\nNel caso che vuoi controllare il file di log dell'installazione,\ndai un sguardo in /tmp sul live system o in /var/log sul sistema installato.\n\nGrazie per utilizzare KaOS. Continua a seguirci nel Forum, condividendo opinioni, fornendo suggerimenti.\nPiù semplicemente: Vuoi essere coinvolto? (http://kaosx.us)\n\nBuon Divertimento!\n\nKaOS "
 
 #. i18n: file: ui/pages/finish.ui:105
 #. i18n: ectx: property (text), widget (QPushButton, rebootButton)
 #: rc.cpp:198
 msgid "Restart Computer"
-msgstr "Reiniciar la computadora"
+msgstr "Riavvia il computer"
 
 #. i18n: file: ui/pages/finish.ui:118
 #. i18n: ectx: property (text), widget (QPushButton, chakraButton)
 #: rc.cpp:201
 msgid "Keep using the LiveCD"
-msgstr "Seguir usando el LiveCD"
+msgstr "Continua ad utilizzare il LiveDVD"
 
 #. i18n: file: ui/pages/init.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, installerInit)
 #: rc.cpp:204
 msgid "Ramdisk"
-msgstr "Ramdisk"
+msgstr "RamDisk"
 
 #. i18n: file: ui/pages/init.ui:49
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -982,7 +981,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Ramdisk Setup</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Configuración de Ramdisk</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">configurazione Ramdisk</span></p></body></html>"
 
 #. i18n: file: ui/pages/init.ui:58
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -994,91 +993,91 @@ msgid ""
 "options for special boot methods. If you are unsure on what this means, "
 "simply press the \"Next\" button. Otherwise check out the ramdisk options "
 "below and select the items you need for your system."
-msgstr "Su hardware se configurará automáticamente durante la instalación y se construirá un entorno de initial ramdisk para arrancar el kernel. Todo debería pasar sin intervención alguna, pero ud. puede necesitar algunas opciones para métodos especiales de arranque. Si no está seguro de que significa, simplemente presione el botón \"Siguiente\". En otro caso, marque las opciones de ramdisk debajo y seleccione lo que necesite sus sistema."
+msgstr "Il tuo hardwire sarà automaticamente configurato durante l0installazione e un ramdisk file per l'avvio del kernel linux sarà creato, senza nessun intervento da parte tua se non in caso di speciali metodi di avvio. Se non sei sicuro di quello che questo significhi, premi semplicemente il pulsante \"prossimo\". Altrimenti verifica le opzioni disponibili per la creazione del file di ramdisk e seleziona quella più consona alle tue esigenze.  "
 
 #. i18n: file: ui/pages/init.ui:81
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: rc.cpp:217
 msgid "Ramdisk Options"
-msgstr "Opciones de Ramdisk"
+msgstr "Opzioni Ramdisk"
 
 #. i18n: file: ui/pages/init.ui:111
 #. i18n: ectx: property (text), widget (QCheckBox, usb)
 #: rc.cpp:220
 msgid "Activate support for booting from USB devices"
-msgstr "Activar soporte para arrancar desde dispositivos USB"
+msgstr "Attivazione Supporto per Avvio da dispositivi USB"
 
 #. i18n: file: ui/pages/init.ui:118
 #. i18n: ectx: property (text), widget (QCheckBox, firewire)
 #: rc.cpp:223
 msgid "Activate support for booting from FireWire devices"
-msgstr "Activar soporte  para arrancar desde dispositivos FireWire"
+msgstr "Attivazione supporto per avvio da dispositivi FireWire"
 
 #. i18n: file: ui/pages/init.ui:125
 #. i18n: ectx: property (text), widget (QCheckBox, pcmcia)
 #: rc.cpp:226
 msgid "Activate support for booting from PCMCIA devices"
-msgstr "Activar soporte  para arrancar desde dispositivos PCMCIA"
+msgstr "Attivazione supporto per avvio da dispositivi PCMCIA"
 
 #. i18n: file: ui/pages/init.ui:132
 #. i18n: ectx: property (text), widget (QCheckBox, nfs)
 #: rc.cpp:229
 msgid "Activate support for booting from NFS shares"
-msgstr "Activar soporte  para arrancar desde comparticiones NFS"
+msgstr "Attivazione supporto per avvio da condivisioni NFS"
 
 #. i18n: file: ui/pages/init.ui:139
 #. i18n: ectx: property (text), widget (QCheckBox, raid)
 #: rc.cpp:232
 msgid "Activate support for booting from Software Raid arrays"
-msgstr "Activar soporte  para arrancar desde arrays de Software Raid"
+msgstr "Attivazione supporto per avvio da gruppi di volumi Raid"
 
 #. i18n: file: ui/pages/init.ui:146
 #. i18n: ectx: property (text), widget (QCheckBox, mdp)
 #: rc.cpp:235
 msgid "Activate support for booting from Software Raid/MDP Partition arrays"
-msgstr "Activar soporte  para arrancar desde arrays de Software Raid/Particiones  MDP"
+msgstr "Attivazione supporto per avvio da gruppo di partizioni Raid/MDP"
 
 #. i18n: file: ui/pages/init.ui:153
 #. i18n: ectx: property (text), widget (QCheckBox, lvm2)
 #: rc.cpp:238
 msgid "Activate support for booting from LVM2 volumes"
-msgstr "Activar soporte  para arrancar desde volúmenes LVM2"
+msgstr "Attivazione supporto per avvio da volumi LVM2"
 
 #. i18n: file: ui/pages/init.ui:160
 #. i18n: ectx: property (text), widget (QCheckBox, encrypted)
 #: rc.cpp:241
 msgid "Activate support for booting from Encrypted volumes"
-msgstr "Activar soporte  para arrancar desde volúmenes encriptados"
+msgstr "Attivazione supporto per avvio da volumi criptati"
 
 #. i18n: file: ui/pages/installation.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Installation)
 #: rc.cpp:244
 msgid "Installation"
-msgstr "Instalación"
+msgstr "Installazione"
 
 #. i18n: file: ui/pages/installation.ui:101
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: rc.cpp:247
 msgid "Nine Inch Nails - Discipline"
-msgstr "Nine Inch Nails - Discipline"
+msgstr "Chiodo da nove centrimetri - Disciplina"
 
 #. i18n: file: ui/pages/installation.ui:106
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: rc.cpp:250
 msgid "Severed Fifth - War"
-msgstr "Severed Fifth - War"
+msgstr "Quinta guerra di separazione"
 
 #. i18n: file: ui/pages/installation.ui:111
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: rc.cpp:253
 msgid "Dunkelstern - Out of the box"
-msgstr "Dunkelstern - Out of the box"
+msgstr "Funzionante senza nessun intervento"
 
 #. i18n: file: ui/pages/intro.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Intro)
 #: rc.cpp:256
 msgid "Installer Intro"
-msgstr "Introducción al instalador"
+msgstr "Introduzione all'Installazione"
 
 #. i18n: file: ui/pages/intro.ui:106
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -1100,13 +1099,13 @@ msgid ""
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Remember:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#00ff00;\">This is a solid installer, but it has its limitations.</span></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Have fun! - KaOS</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:12pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; color:#343434;\">Bienvenido a la instalación de KaOS!</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Este instalador lo guiará a través del proceso de instalación</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">del sistema KaOS live en su computadora. Tras la instalación</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">tendrá un sistema KaOS listo para usar.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;Welcome to the KaOS Installation\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Por favor lea detenidamente todas las instrucciones, entienda que LVM, RAID</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> y particionamiento automático no están soportados en este momento.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Recuerde:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#00ff00;\">Este es un instalador potente, pero tiene sus limitaciones.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Diviértase! - KaOS</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:12pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; color:#343434;\">Benvenuto alla procedura di installazione di KaOS!</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Questa Applicazione ti guiderà attraverso il processo di installazione</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">del sistema KaOS sul tuo computer. Dopo l'installazione avrai </span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">KaOS pronto all'uso.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Per favore leggi attentamente le istruzioni e considera che le funzionalità di LVM,Raid,</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> e partizionamento automatico non sono al momento supportate.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Rocorda:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#00ff00;\">Questo è una stabile applicazione ma con alcune limitazioni.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Buon Divertimento! - KaOS</span></p></body></html>"
 
 #. i18n: file: ui/pages/keyboard.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Keyboard)
 #: rc.cpp:277
 msgid "Keyboard Setup"
-msgstr "Configuración del teclado"
+msgstr "Configurazione della Tastiera"
 
 #. i18n: file: ui/pages/keyboard.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1117,7 +1116,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Keyboard Setup</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Configuración del teclado</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Cconfigurazione della Tastiera</span></p></body></html>"
 
 #. i18n: file: ui/pages/keyboard.ui:40
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1125,13 +1124,13 @@ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/T
 msgid ""
 "The installer will automatically try to detect your keyboard layout based on the settings you have selected during the boot.\n"
 "You can modify it to your liking, and type a few words to test your layout."
-msgstr "El instalador tratará de detectar automáticamente su mapa de teclado basado en los ajustes que seleccionó durante el arranque.\nPuede modificarlos como le parezca, y pruebe a escribir unas palabras para probar su mapa."
+msgstr "L'installazionerileverà automaticamente la configurazione della tua tastiera in funzione dei parametri scelti durante l'avvio del LiveDVD.\nPuoi modificare la configurazione e digitare delle parole di test."
 
 #. i18n: file: ui/pages/keyboard.ui:127
 #. i18n: ectx: property (text), widget (QLabel, lblLanguage)
 #: rc.cpp:291
 msgid "Layout:"
-msgstr "Mapa:"
+msgstr "Cconfigurazione"
 
 #. i18n: file: ui/pages/keyboard.ui:153
 #. i18n: ectx: property (text), widget (QLabel, lblVariant)
@@ -1143,7 +1142,7 @@ msgstr "Variante:"
 #. i18n: ectx: property (text), widget (QLabel, lblTestLayout)
 #: rc.cpp:297
 msgid "Test Layout:"
-msgstr "Probar mapa:"
+msgstr "Prova Cconfigurazione:"
 
 #. i18n: file: ui/pages/license.ui:49
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1154,7 +1153,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">License Approval</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Aprobar licencia</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Approvazione Licenza</span></p></body></html>"
 
 #. i18n: file: ui/pages/license.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1164,31 +1163,31 @@ msgid ""
 " and fonts. To install them, you have to read and accept their licenses. If "
 "you choose against a license, the installer will try to use a free solution "
 "(if one is available)."
-msgstr "KaOS incluye algún software propietario, como drivers, plugins multimedia y fuentes. Para instalarlos, debe leer y aceptar sus licencias. Si rechaza alguna licencia, el instalador tratará de usar alguna solución libre (si es que hay alguna disponible)."
+msgstr "KaOS include del software proprietario come driver per hardwire, multimedia codecs and fonts. Per installare questi software occorre leggere e accettare le loro licenze. Se scegli di non accettare la licenza, l'installazione tenterà di utilizzare un software libero (se uno è disponibile)."
 
 #. i18n: file: ui/pages/license.ui:74
 #. i18n: ectx: property (text), widget (QLabel, licenseLabel)
 #: rc.cpp:310
 msgid "Approve license for:"
-msgstr "Aprobar licencia para:"
+msgstr "Approvazione Licenza:"
 
 #. i18n: file: ui/pages/license.ui:103
 #. i18n: ectx: property (text), widget (QRadioButton, declineButton)
 #: rc.cpp:313
 msgid "Decline License"
-msgstr "Rechazar licencia"
+msgstr "Disapprovazione Licenza"
 
 #. i18n: file: ui/pages/license.ui:110
 #. i18n: ectx: property (text), widget (QRadioButton, acceptButton)
 #: rc.cpp:316
 msgid "Accept License"
-msgstr "Aceptar licencia"
+msgstr "Accettazione Licenza"
 
 #. i18n: file: ui/pages/locale.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Locale)
 #: rc.cpp:319
 msgid "Form"
-msgstr "Formulario"
+msgstr "Form"
 
 #. i18n: file: ui/pages/locale.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -1199,7 +1198,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Language &amp; Time</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Idioma &amp; Hora</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Linguaggio &amp; Time</span></p></body></html>"
 
 #. i18n: file: ui/pages/locale.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -1209,13 +1208,13 @@ msgid ""
 " locale and timezone settings for you. You can fine-tune the suggested "
 "settings at the bottom of the page. Search the globe by dragging to rotate "
 "and using the slider to zoom in."
-msgstr "Por favor seleccione la ciudad mas cercana en el globo para que el instalador pueda sugerirle la configuración regional y la zona horaria. Puede ajustar la configuración sugerida en la parte inferior de la página. Busque en el globo arrastrando para rotar y usando la rueda para agrandarlo."
+msgstr "Per favore seleziona la pià vicccina città sul globo in modo che l'installazione possa suggerire la localizzazione e il fuso orario per te. Puoi ulteriormente configurare la configurazione proposta in fondo alla pagina. Cerca sul globo trascinando per ruotare. "
 
 #. i18n: file: ui/pages/locale.ui:69
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, locationsSearch)
 #: rc.cpp:332
 msgid "Search..."
-msgstr "Buscar..."
+msgstr "Ricerca..."
 
 #. i18n: file: ui/pages/locale.ui:125
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1227,13 +1226,13 @@ msgstr "Continente:"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:338
 msgid "Language:"
-msgstr "Idioma:"
+msgstr "Linguaggio:"
 
 #. i18n: file: ui/pages/locale.ui:171
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:341
 msgid "Locale:"
-msgstr "Localización:"
+msgstr "Localizzazione:"
 
 #. i18n: file: ui/pages/locale.ui:226
 #. i18n: ectx: property (text), widget (QCheckBox, showLocalesCheck)
@@ -1241,13 +1240,13 @@ msgstr "Localización:"
 #. i18n: ectx: property (text), widget (QCheckBox, showKDELangsCheck)
 #: rc.cpp:344 rc.cpp:347
 msgid "Show all"
-msgstr "Mostrar todo"
+msgstr "Mostra tutto:"
 
 #. i18n: file: ui/pages/locale.ui:240
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:350
 msgid "Region: "
-msgstr "Región:"
+msgstr "Regione:"
 
 #. i18n: file: ui/pages/netinst.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1258,13 +1257,13 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Installation Type</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Tipo de instalación</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Tipo di Installazione</span></p></body></html>"
 
 #. i18n: file: ui/pages/netinst.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:360
 msgid "Select the type of installation you wish to perform."
-msgstr "Seleccione el tipo de instalación que desea realizar."
+msgstr "Seleziona il tipo di installazione che pensi di utilizzare."
 
 #. i18n: file: ui/pages/netinst.ui:96
 #. i18n: ectx: property (text), widget (QRadioButton, isoinst)
@@ -1272,7 +1271,7 @@ msgstr "Seleccione el tipo de instalación que desea realizar."
 msgid ""
 "Offline Installation.  This installs the system from the packages included "
 "on the ISO."
-msgstr "Instalación offline. Esto instala el sistema desde los paquetes incluídos en la ISO."
+msgstr "installazione fuori rete. Saranno installati solo i pacchetti contenuti sulla ISO nel DVD."
 
 #. i18n: file: ui/pages/netinst.ui:109
 #. i18n: ectx: property (text), widget (QRadioButton, netinst)
@@ -1280,13 +1279,13 @@ msgstr "Instalación offline. Esto instala el sistema desde los paquetes incluí
 msgid ""
 "Network Installation.  Downloads (no packages from the ISO used) and "
 "installs a minimal working KDE desktop."
-msgstr "Instalación por red. Descarga (no los paquetes de la ISO usada) e instala un escritorio de trabajo KDE mínimo."
+msgstr "Installazione di Rete. I pacchetti saranno scaricati direttamente dalla rete (e non dal DVD) e sarà installato un minimale ambiente Desktop KDE."
 
 #. i18n: file: ui/pages/partition.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Partition)
 #: rc.cpp:369
 msgid "Partition"
-msgstr "Partición"
+msgstr "Partizione"
 
 #. i18n: file: ui/pages/partition.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1297,7 +1296,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Disk setup</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Configuración de disco</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Cconfigurazione del Disco</span></p></body></html>"
 
 #. i18n: file: ui/pages/partition.ui:59
 #. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
@@ -1305,13 +1304,13 @@ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/T
 msgid ""
 "Please select a mountpoint for your partitions. No permanent changes to your hard drive will be made when you will press \"Next\". Note: selected partitions are not explicitly formatted. Only those with the green mark are set to be formatted.\n"
 "If later during this install you choose to install a bootloader, GRUB2 will be installed on the same hard drive where your \"/boot\" partition is located."
-msgstr "Por favor seleccione un punto de montaje para sus particiones. No se harán cambios permanentes en su disco hasta que presione el botón \"Siguiente\". Nota: las particiones seleccionadas no serán formateadas explícitamente. Solo aquellas con la marca verde serán formateadas.\nSi mas tarde durante la instalación decide instalar un cargador de arranque, GRUB2 será instalado en el mismo disco donde esté localizada su partición \"/boot\"."
+msgstr "Per favore seleziona un punto di mount per le tue partizioni. Nessun modifica della configurazione del disco sarà effettuata premendo il pulsante \"prossimo\": Nota: le partizioni selezionate non saranno esplicitamente formattate, ma occorre evidenziarle con il flag verde.\nSe durante l'installazione scegli di installare il bootloader, GRUB2 sarà installato sullo stesso disco dove è localizzata la partizione \"/boot\". "
 
 #. i18n: file: ui/pages/partition.ui:104
 #. i18n: ectx: property (text), widget (QLabel, filesystemLabel)
 #: rc.cpp:383
 msgid "Filesystem: "
-msgstr "Sistema de archivos:"
+msgstr "Filesystem:"
 
 #. i18n: file: ui/pages/partition.ui:202
 #. i18n: ectx: property (text), widget (KPushButton, editPartitionOkButton)
@@ -1319,13 +1318,13 @@ msgstr "Sistema de archivos:"
 #. i18n: ectx: property (text), widget (QPushButton, okButton)
 #: rc.cpp:389 rc.cpp:496
 msgid "Ok"
-msgstr "Ok"
+msgstr "OK"
 
 #. i18n: file: ui/pages/partition.ui:299
 #. i18n: ectx: property (text), widget (QPushButton, formatButton)
 #: rc.cpp:398
 msgid "Format"
-msgstr "Formatear"
+msgstr "Fomattazione"
 
 #. i18n: file: ui/pages/partition.ui:318
 #. i18n: ectx: property (toolTip), widget (QPushButton, undoButton)
@@ -1333,13 +1332,13 @@ msgstr "Formatear"
 #. i18n: ectx: property (text), widget (QPushButton, undoButton)
 #: rc.cpp:401 rc.cpp:404
 msgid "Undo"
-msgstr "Deshacer"
+msgstr "Torna indietro"
 
 #. i18n: file: ui/pages/partition.ui:337
 #. i18n: ectx: property (toolTip), widget (QPushButton, unmountButton)
 #: rc.cpp:407
 msgid "Unmount the selected partition"
-msgstr "Desmontar la partición seleccionada"
+msgstr "Smonta la partizione selezionata"
 
 #. i18n: file: ui/pages/readyinstall.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1350,7 +1349,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Ready to Install</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Listo para instalar</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Pronto per l'installazione</span></p></body></html>"
 
 #. i18n: file: ui/pages/readyinstall.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1358,7 +1357,7 @@ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/T
 msgid ""
 "The system will be installed with the following settings. Before continuing,"
 " please review your selections:\n"
-msgstr "El sistema se instalará con la siguiente configuración. Antes de continuar, por favor revise sus elecciones.\n"
+msgstr "Il sistema sarà installato with i seguenti parametri.  Prima di continuare per favore controlla quanto selezionato:\n"
 
 #. i18n: file: ui/pages/readyinstall.ui:94
 #. i18n: ectx: property (text), widget (QLabel, installTitle)
@@ -1369,7 +1368,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">The following installation will be performed:</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Se realizará la siguiente instalación:</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">La seguente installazione sarà eseguita:</span></p></body></html>"
 
 #. i18n: file: ui/pages/readyinstall.ui:104
 #. i18n: ectx: property (text), widget (QLabel, installLabel)
@@ -1381,7 +1380,7 @@ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/T
 #. i18n: ectx: property (text), widget (QLabel, timezoneLabel)
 #: rc.cpp:428 rc.cpp:438 rc.cpp:448 rc.cpp:458
 msgid "TextLabel"
-msgstr "Etiqueta de texto"
+msgstr "Etichetta Testo"
 
 #. i18n: file: ui/pages/readyinstall.ui:136
 #. i18n: ectx: property (text), widget (QLabel, mountTitel)
@@ -1392,7 +1391,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">The following partitions will be used:</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Se usarán las siguientes particiones:</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">La segeunt epartizione sarà utilizzata:</span></p></body></html>"
 
 #. i18n: file: ui/pages/readyinstall.ui:187
 #. i18n: ectx: property (text), widget (QLabel, formatTitel)
@@ -1403,7 +1402,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">The following partitions will be formatted:</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Se formatearán las siguientes particiones:</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Le seguenti partizioni saranno formattate:</span></p></body></html>"
 
 #. i18n: file: ui/pages/readyinstall.ui:238
 #. i18n: ectx: property (text), widget (QLabel, timezoneTitel)
@@ -1414,7 +1413,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Language and timezone settings:</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Configuración de idioma y zona horaria:</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:10pt;\"><span style=\" font-size:12pt; font-weight:600; color:#343434;\">Parametri per la Langua e la Localizzazione:</span></p></body></html>"
 
 #. i18n: file: ui/pages/releasenotes.ui:47
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1425,7 +1424,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Release Notes</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Notas de la versión</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Note di Rilascio</span></p></body></html>"
 
 #. i18n: file: ui/pages/releasenotes.ui:60
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1434,7 +1433,7 @@ msgid ""
 "Read what's new, the known issues and general information about this version"
 " of KaOS. You are encouraged to tell us what you think, either by visiting "
 "our forums or mailing-list."
-msgstr "Lea lo que hay de nuevo, los problemas conocidos y la información general sobre esta versión de KaOS. Le animamos a decirnos lo que piensa, ya sea a través de nuestro foro o nuestra lista de correo."
+msgstr "Leggi le novità, le problematiche note e le informazioni generali di questa  versione di KaOS. Sei incoraggiato a condividere cosa ne pensi, visitando il nostro Forum o la nostra mailing-list."
 
 #. i18n: file: ui/pages/usercreation.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1445,19 +1444,19 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Create Users</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Crear usuarios</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#343434;\">Creazione Utenti</span></p></body></html>"
 
 #. i18n: file: ui/pages/usercreation.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:481
 msgid "Enter at least one login name and password."
-msgstr "Ingrese al menos un nombre de inicio de sesión y contraseña"
+msgstr "Digita almeno un nome di login e una password. "
 
 #. i18n: file: ui/pages/usercreation.ui:178
 #. i18n: ectx: property (toolTip), widget (QPushButton, addUser)
 #: rc.cpp:484
 msgid "Add another user account."
-msgstr "Agregar otra cuenta de usuario."
+msgstr "Aggiungi un altro utente."
 
 #. i18n: file: ui/pages/usercreation.ui:286
 #. i18n: ectx: property (text), widget (QLabel, hostname_extra_label)
@@ -1465,74 +1464,74 @@ msgstr "Agregar otra cuenta de usuario."
 msgid ""
 "<small>This name will be used if you make the computer visible to others on "
 "a network.</small>"
-msgstr "<small>Se usará este nombre si hace visible a otros esta computadora en una red.</small>"
+msgstr "<small>Questo nome sarà utilizzato se rendi il computer visibile sulla rete.</small>"
 
 #. i18n: file: ui/pages/usercreation.ui:299
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:490
 msgid "...and, what is the name of this computer?"
-msgstr "...y, cual es el nombre de esta computadora?"
+msgstr "...e, qual'è il nome di questo computer?"
 
 #. i18n: file: ui/widgets/avatardialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, AvatarDialog)
 #: rc.cpp:493
 msgid "Select an Avatar..."
-msgstr "Seleccione un Avatar..."
+msgstr "Seleziona un Avater..."
 
 #. i18n: file: ui/widgets/groupselectionwidget.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupSelectionWidget)
 #: rc.cpp:502
 msgid "Frame"
-msgstr "Marco"
+msgstr "Frame"
 
 #. i18n: file: ui/widgets/groupselectionwidget.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, group)
 #: rc.cpp:505
 msgid "group"
-msgstr "grupo"
+msgstr "Gruppo"
 
 #. i18n: file: ui/widgets/groupselectionwidget.ui:36
 #. i18n: ectx: property (text), widget (QLabel, description)
 #: rc.cpp:508
 msgid "description"
-msgstr "descripción"
+msgstr "Descrizione"
 
 #. i18n: file: ui/widgets/userwidget.ui:74
 #. i18n: ectx: property (toolTip), widget (QPushButton, userDetails)
 #: rc.cpp:511
 msgid "Include more information about this user."
-msgstr "Incluir mas información sobre este usuario."
+msgstr "includi pià infomazioni circa questo utente."
 
 #. i18n: file: ui/widgets/userwidget.ui:132
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeUser)
 #: rc.cpp:514
 msgid "Remove this user."
-msgstr "Eliminar este usuario."
+msgstr "Elimina questo utente"
 
 #. i18n: file: ui/widgets/userwidget.ui:151
 #. i18n: ectx: property (format), widget (QProgressBar, passStrengthProgBar)
 #: rc.cpp:518
 #, no-c-format
 msgid "password strength: %p%"
-msgstr "seguridad de la contraseña: %p%"
+msgstr "Forza della password:%p%"
 
 #. i18n: file: ui/widgets/userwidget.ui:158
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:521
 msgid "Password: "
-msgstr "Contraseña:"
+msgstr "Password:"
 
 #. i18n: file: ui/widgets/userwidget.ui:216
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:524
 msgid "Confirm Password:"
-msgstr "Confirmar contraseña:"
+msgstr "Conferma Password:"
 
 #. i18n: file: ui/widgets/userwidget.ui:243
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:527
 msgid "User name"
-msgstr "Nombre de usuario"
+msgstr "Nome Utente"
 
 #. i18n: file: ui/widgets/userwidget.ui:259
 #. i18n: ectx: property (toolTip), widget (QLineEdit, loginLine)
@@ -1541,19 +1540,19 @@ msgid ""
 "<html><head/><body><p>The user name may consist of a lowercase character or "
 "\"_\", followed by up to 31 lowercase characters, digits or \"_\" and "
 "\"-\".</p></body></html>"
-msgstr "<html><head/><body><p>El nombre de usuario puede consistir en un carácter en minúsculas o \"_\", seguido por hasta 31 carácteres en minúsculas, dígitos o \"_\" y \"-\".</p></body></html>"
+msgstr "<html><head/><body><p>Il nome dell'Utente può essere formato da un  carattere minuscole o \"_\", seguito finoa un massimo di 31 characters minuscoli, cifre o \"_\" e \"-\".</p></body></html>"
 
 #. i18n: file: ui/widgets/userwidget.ui:301
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:533
 msgid "Name: "
-msgstr "Nombre:"
+msgstr "Nome:"
 
 #. i18n: file: ui/widgets/userwidget.ui:344
 #. i18n: ectx: property (text), widget (QCheckBox, autoLoginCheckBox)
 #: rc.cpp:536
 msgid "Login Automatically"
-msgstr "Iniciar sesión automáticamente"
+msgstr "Login automatico"
 
 #. i18n: file: ui/widgets/userwidget.ui:381
 #. i18n: ectx: property (text), widget (QCheckBox, rootUsesUserPwCheckBox)
@@ -1561,26 +1560,26 @@ msgstr "Iniciar sesión automáticamente"
 msgid ""
 "Select to use the above password as \n"
 "the Administrator password"
-msgstr "Seleccione para usar la contraseña anterior\ncomo la contraseña de Administrador"
+msgstr "Seleziona la suddetta password come\nquella di amministratore "
 
 #. i18n: file: ui/widgets/userwidget.ui:433
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:543
 msgid "Root Password:  "
-msgstr "Contraseña de Root"
+msgstr "Root Password:"
 
 #. i18n: file: ui/widgets/userwidget.ui:443
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:546
 msgid "Confirm Root Password:  "
-msgstr "Confirmar contraseña de Root"
+msgstr "Conferma la Root Password:"
 
 #: rc.cpp:547
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Su nombre"
+msgstr "Il tuo nome"
 
 #: rc.cpp:548
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "Su email"
+msgstr "Le tue email"

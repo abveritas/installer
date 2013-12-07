@@ -127,13 +127,13 @@ p, li { white-space: pre-wrap; }
            </property>
           </widget>
          </item>
-         <item row="0" column="0" colspan="3">
+         <!-- <item row="0" column="0" colspan="3">
           <widget class="QLabel" name="label_4">
            <property name="text">
             <string>Activate support for booting from:</string>
            </property>
           </widget>
-         </item>
+          </item> -->
          <item row="1" column="1">
           <widget class="QCheckBox" name="firewire">
            <property name="text">
@@ -141,7 +141,7 @@ p, li { white-space: pre-wrap; }
            </property>
           </widget>
          </item>
-         <item row="4" column="1">
+         <!--<item row="4" column="1">
           <widget class="QCheckBox" name="raid">
            <property name="text">
             <string>Software Raid Arrays</string>
@@ -161,7 +161,7 @@ p, li { white-space: pre-wrap; }
             <string>Encrypted Volumes</string>
            </property>
           </widget>
-         </item>
+          </item> -->
          <item row="11" column="0" rowspan="2" colspan="2">
           <widget class="QPushButton" name="generateInitRamDiskButton">
            <property name="minimumSize">

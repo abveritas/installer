@@ -34,9 +34,9 @@
 
 const QString tI = "/tmp/installer_initcpio_enable_";
 QStringList tmpInitRd = QStringList() << QString(tI + "usb") << QString(tI + "firewire")
-                                      << QString(tI + "pcmcia") << QString(tI + "nfs")
+                                      /*<< QString(tI + "pcmcia") << QString(tI + "nfs")
                                       << QString(tI + "softwareraid") << QString(tI + "softwareraidmdp")
-                                      << QString(tI + "lvm2") << QString(tI + "encrypted");
+                                      << QString(tI + "lvm2") << QString(tI + "encrypted");*/
 
 
 ConfigPage::ConfigPage(QWidget *parent)
