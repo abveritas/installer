@@ -218,10 +218,10 @@ msgstr "Daniele Cocca"
 #: src/main.cpp:84
 msgid ""
 "Your system does not meet the minimal memory needed\n"
-"for installing KaOS with Installer (1gb), total available memory: %1 mbytes\n"
+"for installing KaOS with Installer (1.5gb), total available memory: %1 mbytes\n"
 "\n"
 "Continue at your own risk"
-msgstr "Il tuo sistema non ha la minima memoria RAM necessaria\nper installare KaOS con l'installazione (1gb) grafica, memoria totale disponibile: %1 mbytes\n\nContinuare a proprio rischio "
+msgstr "Il tuo sistema non ha la minima memoria RAM necessaria\nper installare KaOS con l'installazione (1.5gb) grafica, memoria totale disponibile: %1 mbytes\n\nContinuare a proprio rischio "
 
 #: src/main.cpp:106
 msgid ""
