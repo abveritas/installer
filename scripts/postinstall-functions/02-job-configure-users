@@ -137,7 +137,7 @@ job_configure_users()
 	chroot ${mountpoint} /usr/bin/find /home/${user_name}/ -maxdepth 1 -name '.*' -exec /bin/chown -vR ${user_name}:users '{}' \;
 	
 	msg "set additional home dirs"
-	chroot ${mountpoint} xdg-user-dirs-update
+	chroot ${mountpoint} su -c xdg-user-dirs-update ${user_name}
 
 	msg_job_done "job_configure_users"
 }
