@@ -33,7 +33,7 @@
 
 
 const QString tI = "/tmp/installer_initcpio_enable_";
-QStringList tmpInitRd = QStringList() << QString(tI + "usb") << QString(tI + "firewire")
+QStringList tmpInitRd = QStringList() << QString(tI + "usb") << QString(tI + "firewire");
                                       /*<< QString(tI + "pcmcia") << QString(tI + "nfs")
                                       << QString(tI + "softwareraid") << QString(tI + "softwareraidmdp")
                                       << QString(tI + "lvm2") << QString(tI + "encrypted");*/
@@ -464,7 +464,7 @@ void ConfigPage::generateInitRamDisk()
         QProcess::execute("touch " + tmpInitRd.at(0));
     if (ui.firewire->isChecked())
         QProcess::execute("touch " + tmpInitRd.at(1));
-    if (ui.pcmcia->isChecked())
+    /*if (ui.pcmcia->isChecked())
         QProcess::execute("touch " + tmpInitRd.at(2));
     if (ui.nfs->isChecked())
         QProcess::execute("touch " + tmpInitRd.at(3));
@@ -475,7 +475,7 @@ void ConfigPage::generateInitRamDisk()
     if (ui.lvm2->isChecked())
         QProcess::execute("touch " + tmpInitRd.at(6));
     if (ui.encrypted->isChecked())
-        QProcess::execute("touch " + tmpInitRd.at(7));
+        QProcess::execute("touch " + tmpInitRd.at(7));*/
 
     QString command  = QString("sh " + QString(SCRIPTS_INSTALL_PATH) +
                                "/postinstall.sh --job create-initrd %1")
