@@ -46,6 +46,9 @@ job_cleanup_l10n()
             done
 
 	msg "l10n removal complete"
+	
+	msg "set additional home dirs"
+	chroot ${mountpoint} xdg-user-dirs-update ${user_name}
 
 	msg_job_done "job_cleanup_l10n"
 }

@@ -27,7 +27,7 @@ job_configure_users()
 	chroot ${mountpoint} /usr/bin/gpasswd -a ${user_name} bundle
 
 	msg "create common dirs"
-	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Desktop
+	#chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Desktop
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/.kde4/Autostart
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/.kde4/env
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/.kde4/share/config
@@ -132,12 +132,9 @@ job_configure_users()
 
 	msg "chown ${user_name} /home/${user_name}"
 	chroot ${mountpoint} /bin/chown -v ${user_name}:users /home/${user_name}
-	chroot ${mountpoint} /bin/chown -vR ${user_name}:users /home/${user_name}/Desktop
+	#chroot ${mountpoint} /bin/chown -vR ${user_name}:users /home/${user_name}/Desktop
 	msg "chown ${user_name} /home/${user_name}/.*"
 	chroot ${mountpoint} /usr/bin/find /home/${user_name}/ -maxdepth 1 -name '.*' -exec /bin/chown -vR ${user_name}:users '{}' \;
-	
-	msg "set additional home dirs"
-	chroot ${mountpoint} su -c xdg-user-dirs-update ${user_name}
 
 	msg_job_done "job_configure_users"
 }
