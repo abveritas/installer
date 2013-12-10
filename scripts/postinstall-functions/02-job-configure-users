@@ -27,7 +27,7 @@ job_configure_users()
 	chroot ${mountpoint} /usr/bin/gpasswd -a ${user_name} bundle
 
 	msg "create common dirs"
-	#chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Desktop
+	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/Desktop
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/.kde4/Autostart
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/.kde4/env
 	chroot ${mountpoint} /bin/mkdir -p -v /home/${user_name}/.kde4/share/config
@@ -104,6 +104,7 @@ job_configure_users()
 	cp -vf /etc/skel/.bashrc ${mountpoint}/home/${user_name}/.bashrc
 	cp -vf /etc/skel/mimeapps.list ${mountpoint}/home/${user_name}/.local/share/applications/mimeapps.list
 	cp -vf /etc/skel/duckduckgo.desktop ${mountpoint}/home/${user_name}/.kde4/share/kde4/services/searchproviders/duckduckgo.desktop
+	cp -vf /etc/skel/xdg-user-dirs-update.desktop ${mountpoint}/home/${user_name}/.config/autostart/xdg-user-dirs-update.desktop
 	cp -vf /etc/skel/katerc ${mountpoint}/home/${user_name}/.kde4/share/config/katerc
 
 	chroot ${mountpoint} ln -sf /usr/bin/bluedevil-monolithic /home/${user_name}/.kde4/Autostart/bluedevil-monolithic
@@ -132,7 +133,7 @@ job_configure_users()
 
 	msg "chown ${user_name} /home/${user_name}"
 	chroot ${mountpoint} /bin/chown -v ${user_name}:users /home/${user_name}
-	#chroot ${mountpoint} /bin/chown -vR ${user_name}:users /home/${user_name}/Desktop
+	chroot ${mountpoint} /bin/chown -vR ${user_name}:users /home/${user_name}/Desktop
 	msg "chown ${user_name} /home/${user_name}/.*"
 	chroot ${mountpoint} /usr/bin/find /home/${user_name}/ -maxdepth 1 -name '.*' -exec /bin/chown -vR ${user_name}:users '{}' \;
 
