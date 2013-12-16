@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: KaOS\n"
 "Report-Msgid-Bugs-To: http://github.com/organizations/KaOSx/dashboard/issues\n"
 "POT-Creation-Date: 2013-12-08 10:23-0500\n"
-"PO-Revision-Date: 2013-12-15 18:26+0000\n"
+"PO-Revision-Date: 2013-12-16 04:18+0000\n"
 "Last-Translator: demm <demm@kaosx.us>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/kaos/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "Fehler beim kopieren der Datei."
 
 #: src/installationhandler.cpp:237
 msgid "Removing packages whose license has been declined..."
-msgstr "Die aus lizenzrechtlichen Gründen abgelehnten Packete werden entfernt...."
+msgstr "Entferne Pakete, deren Lizenzen abgelehnt wurden…"
 
 #: src/installationhandler.cpp:330
 msgid "Initializing target..."
@@ -73,7 +73,7 @@ msgstr "Ungenützte Packete werden entfernt...."
 
 #: src/installationhandler.cpp:527
 msgid "Installing additional packages..."
-msgstr "Zusätzliche Packete werden installiert"
+msgstr "Zusätzliche Pakete werden installiert..."
 
 #: src/installationhandler.cpp:531
 msgid "Configuring the display..."
@@ -233,14 +233,14 @@ msgstr "Sind sie sich sicher, dass ihr Stromkabel angeschlossen ist? Die Install
 
 #: src/mainwindow.cpp:99
 msgid "Do you really want to abort the installation?"
-msgstr "Möchtest du die Installation wirklich abbrechen?"
+msgstr "Möchten Sie die Installation wirklich abbrechen?"
 
 #: src/mainwindow.cpp:558
 msgid ""
 "Installation failed! The following error has been reported: %1.\n"
 "Installer will now quit, please check the installation logs in /tmp\n"
 "or ask for help in our forums."
-msgstr "Installation fehlgeschlagen! Der folgende Fehler ist aufgetreten: %1.\nDas Installationsprogramm wird sich nun schließen, sie finden hoffentlich einen detailierten Fehlerbericht in OS > Dolphin > Basisordner > tmp\nhttp://kaosx.us/phpBB3/"
+msgstr "Installation fehlgeschlagen! Der folgende Fehler ist aufgetreten: %1.\nDas Installationsprogramm wird sich nun schließen, sie finden hoffentlich einen detailierten Fehlerbericht in OS > Dolphin > Basisordner > tmp\noder holen Sie sich Hilfe in unseren Foren."
 
 #: src/pages/bootloaderpage.cpp:52 src/pages/configpage.cpp:537
 msgid "Installing bootloader..."
@@ -331,7 +331,7 @@ msgstr "Patentrechtlich geschützte NVidia Treiber"
 
 #: src/pages/licensepage.cpp:119
 msgid "Accept license for: "
-msgstr "Lizenz akzeptieren:"
+msgstr "Lizenz akzeptieren für:"
 
 #: src/pages/localepage.cpp:326
 msgid "You need to select a timezone"
@@ -415,7 +415,7 @@ msgstr "Netzwerk Installation. (Momentan nicht möglich)"
 
 #: src/pages/partitionpage.cpp:91
 msgid "Please enter a custom mountpoint"
-msgstr "Bitte definiere den Einhängepunkt"
+msgstr "Bitte definiere den eigenen Einhängepunkt"
 
 #: src/pages/partitionpage.cpp:103
 msgid "The mount point must start with /"
@@ -527,7 +527,7 @@ msgstr "Die folgenden Partitionen sind offenbar eingehängt: %1.  Um eine sauber
 
 #: src/pages/usercreationpage.cpp:163
 msgid "You must give at least one login name."
-msgstr "Bitte wähle einen Namen, mit dem du dich anmelden willst."
+msgstr "Sie müssen zumindest einen Benutzernamen eingeben."
 
 #: src/pages/usercreationpage.cpp:167
 msgid "Root Passwords cannot be empty."
@@ -535,11 +535,11 @@ msgstr "Bitte gib ein Administrationspasswort an und merke dir dieses gut."
 
 #: src/pages/usercreationpage.cpp:171
 msgid "Root Passwords do not match..."
-msgstr "Wiederhole das Administrationspasswort korrekt, um Fehler in der Angabe zu vermeiden."
+msgstr "Administrationspasswort stimmen nicht überein..."
 
 #: src/pages/usercreationpage.cpp:185
 msgid "Login names cannot be empty."
-msgstr "Bitte wähle einen Namen, mit dem du dich anmelden willst."
+msgstr "Benutzername darf nicht leer sein."
 
 #: src/pages/usercreationpage.cpp:189
 msgid "Please check your username.."
@@ -551,11 +551,11 @@ msgstr "Bitte wähle keine doppelten Namen."
 
 #: src/pages/usercreationpage.cpp:199
 msgid "Passwords cannot be empty."
-msgstr "Bitte gib alle Passwörter an."
+msgstr "Passwörter dürfen nicht leer sein."
 
 #: src/pages/usercreationpage.cpp:203
 msgid "Passwords do not match..."
-msgstr "Wiederhole deine Passwörter korrekt, um Fehler in der Angabe zu vermeiden."
+msgstr "Passwörter stimmen nicht überein..."
 
 #: src/pmhandler.cpp:360
 msgid "Preparing hard drive for installation..."
@@ -1100,7 +1100,7 @@ msgid ""
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Remember:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#006700;\">This is a solid installer, but it has its limitations.</span></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Have fun! - KaOS</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:12pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; color:#343434;\">Willkommen zur KaOS Installation!</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Dieses Programm wird durch die Installation begleiten </span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"></span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">werden Sie ein benutzbares KaOS vorfinden.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Bitte lesen Sie aufmerksam alle Anweisungen durch und beachten Sie, </span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">dass LVM-, RAID- und automatische Partitionierung derzeit nicht unterstützt werden.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Remember:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#006700;\">Dies ist ein sehr solider Installer, doch irgendwo hat auch er seine Grenzen. </span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Viel Spass - KaOS</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:12pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; color:#343434;\">Willkommen zur KaOS Installation!</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Dieses Programm wird durch die Installation begleiten </span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"></span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">werden Sie ein benutzbares KaOS vorfinden.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Bitte lesen Sie aufmerksam alle Anweisungen durch und beachten Sie, </span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">dass LVM-, RAID- und automatische Partitionierung derzeit nicht unterstützt werden.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Beachten Sie:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#006700;\">Dies ist ein solider Installer, aber es hat seine Grenzen. </span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Viel Spass - KaOS</span></p></body></html>"
 
 #. i18n: file: ui/pages/keyboard.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Keyboard)
@@ -1434,7 +1434,7 @@ msgid ""
 "Read what's new, the known issues and general information about this version"
 " of KaOS. You are encouraged to tell us what you think, either by visiting "
 "our forums or mailing-list."
-msgstr "Lies hier was es neues gibt,, wie bekannte Fehler und generelle Information über diese Version von KaOS. Du kannst uns erzählen was du willst, indem du uns im Forum oder unserer Mail Liste besuchen kommst."
+msgstr "Lies hier was es neues gibt, wie bekannte Fehler und generelle Information über diese Version von KaOS. Du kannst uns erzählen was du willst, indem du uns im Forum oder unserer Mail Liste besuchen kommst."
 
 #. i18n: file: ui/pages/usercreation.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label)

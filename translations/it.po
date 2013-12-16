@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# demm <demm@kaosx.us>, 2013
 # forerunner <bincremona@myopera.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: KaOS\n"
 "Report-Msgid-Bugs-To: http://github.com/organizations/KaOSx/dashboard/issues\n"
-"POT-Creation-Date: 2013-11-01 18:34-0400\n"
-"PO-Revision-Date: 2013-12-04 06:09+0000\n"
-"Last-Translator: forerunner <bincremona@myopera.com>\n"
+"POT-Creation-Date: 2013-12-08 10:23-0500\n"
+"PO-Revision-Date: 2013-12-16 16:30+0000\n"
+"Last-Translator: demm <demm@kaosx.us>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/kaos/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,7 +222,7 @@ msgid ""
 "for installing KaOS with Installer (1.5gb), total available memory: %1 mbytes\n"
 "\n"
 "Continue at your own risk"
-msgstr "Il tuo sistema non ha la minima memoria RAM necessaria\nper installare KaOS con l'installazione (1.5gb) grafica, memoria totale disponibile: %1 mbytes\n\nContinuare a proprio rischio "
+msgstr "Il tuo sistema non ha la minima memoria RAM necessaria\nper installare KaOS con l'installazione (1.5gb) grafica, memoria totale disponibile: %1 mbytes\n\nContinuare a proprio"
 
 #: src/main.cpp:106
 msgid ""
@@ -705,20 +706,20 @@ msgid ""
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Preparation</span></p></body></html>"
 msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//IT\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600; color:#343434;\">Preparazione</span></p></body></html>"
 
-#. i18n: file: ui/pages/base.ui:597
+#. i18n: file: ui/pages/base.ui:600
 #. i18n: ectx: property (text), widget (QPushButton, abortButton)
 #: rc.cpp:61
 msgid "Abort installation"
 msgstr "Installazione non conclusa correttamente"
 
-#. i18n: file: ui/pages/base.ui:629
+#. i18n: file: ui/pages/base.ui:635
 #. i18n: ectx: property (text), widget (QPushButton, previousButton)
 #: rc.cpp:64
 msgctxt "Previous Page"
 msgid "Previous"
 msgstr "Precedente"
 
-#. i18n: file: ui/pages/base.ui:648
+#. i18n: file: ui/pages/base.ui:657
 #. i18n: ectx: property (text), widget (QPushButton, nextButton)
 #: rc.cpp:67
 msgctxt "Next Page"
@@ -754,9 +755,9 @@ msgstr "Installazione bootloader"
 
 #. i18n: file: ui/pages/bootloader.ui:89
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
-#. i18n: file: ui/pages/partition.ui:261
+#. i18n: file: ui/pages/partition.ui:298
 #. i18n: ectx: property (toolTip), widget (QPushButton, advancedButton)
-#. i18n: file: ui/pages/partition.ui:264
+#. i18n: file: ui/pages/partition.ui:301
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: rc.cpp:86 rc.cpp:392 rc.cpp:395
 msgid "Advanced..."
@@ -892,10 +893,10 @@ msgstr "Puoi adesso installare GRUB2 come bootloader principale.\nGRUB2 sarà in
 
 #. i18n: file: ui/pages/config.ui:759
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#. i18n: file: ui/pages/partition.ui:150
+#. i18n: file: ui/pages/partition.ui:187
 #. i18n: ectx: property (text), widget (KPushButton,
 #. editPartitionCancelButton)
-#. i18n: file: ui/widgets/avatardialog.ui:114
+#. i18n: file: ui/widgets/avatardialog.ui:117
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #: rc.cpp:154 rc.cpp:386 rc.cpp:499
 msgid "Cancel"
@@ -1096,10 +1097,10 @@ msgid ""
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Please carefully read all of the instructions, understand LVM, RAID</span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> and automated partitioning are not supported at this time.</span></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Remember:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#00ff00;\">This is a solid installer, but it has its limitations.</span></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Remember:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#006700;\">This is a solid installer, but it has its limitations.</span></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Have fun! - KaOS</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:12pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; color:#343434;\">Benvenuto alla procedura di installazione di KaOS!</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Questa Applicazione ti guiderà attraverso il processo di installazione</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">del sistema KaOS sul tuo computer. Dopo l'installazione avrai </span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">KaOS pronto all'uso.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Per favore leggi attentamente le istruzioni e considera che le funzionalità di LVM,Raid,</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> e partizionamento automatico non sono al momento supportate.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Rocorda:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#006700;\">Questo è una stabile applicazione ma con alcune limitazioni.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Buon Divertimento! - KaOS</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:12pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; color:#343434;\">Benvenuto alla procedura di installazione di KaOS!</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Questa Applicazione ti guiderà attraverso il processo di installazione</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">del sistema KaOS sul tuo computer. Dopo l'installazione avrai</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">KaOS pronto all'uso.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Per favore leggi attentamente le istruzioni e considera che le funzionalità di LVM,Raid,</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">  e partizionamento automatico non sono al momento supportate.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; color:#343434;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\"> Rocorda:</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536;\"> </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:10pt; font-weight:536; color:#006700;\">Questo è una stabile applicazione ma con alcune limitazioni.</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#ff0000;\"></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:536; color:#343434;\">Buon Divertimento! - KaOS</span></p></body></html>"
 
 #. i18n: file: ui/pages/keyboard.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Keyboard)
@@ -1306,35 +1307,35 @@ msgid ""
 "If later during this install you choose to install a bootloader, GRUB2 will be installed on the same hard drive where your \"/boot\" partition is located."
 msgstr "Per favore seleziona un punto di mount per le tue partizioni. Nessun modifica della configurazione del disco sarà effettuata premendo il pulsante \"prossimo\": Nota: le partizioni selezionate non saranno esplicitamente formattate, ma occorre evidenziarle con il flag verde.\nSe durante l'installazione scegli di installare il bootloader, GRUB2 sarà installato sullo stesso disco dove è localizzata la partizione \"/boot\". "
 
-#. i18n: file: ui/pages/partition.ui:104
+#. i18n: file: ui/pages/partition.ui:141
 #. i18n: ectx: property (text), widget (QLabel, filesystemLabel)
 #: rc.cpp:383
 msgid "Filesystem: "
 msgstr "Filesystem:"
 
-#. i18n: file: ui/pages/partition.ui:202
+#. i18n: file: ui/pages/partition.ui:239
 #. i18n: ectx: property (text), widget (KPushButton, editPartitionOkButton)
-#. i18n: file: ui/widgets/avatardialog.ui:85
+#. i18n: file: ui/widgets/avatardialog.ui:88
 #. i18n: ectx: property (text), widget (QPushButton, okButton)
 #: rc.cpp:389 rc.cpp:496
 msgid "Ok"
 msgstr "OK"
 
-#. i18n: file: ui/pages/partition.ui:299
+#. i18n: file: ui/pages/partition.ui:336
 #. i18n: ectx: property (text), widget (QPushButton, formatButton)
 #: rc.cpp:398
 msgid "Format"
 msgstr "Fomattazione"
 
-#. i18n: file: ui/pages/partition.ui:318
+#. i18n: file: ui/pages/partition.ui:355
 #. i18n: ectx: property (toolTip), widget (QPushButton, undoButton)
-#. i18n: file: ui/pages/partition.ui:321
+#. i18n: file: ui/pages/partition.ui:358
 #. i18n: ectx: property (text), widget (QPushButton, undoButton)
 #: rc.cpp:401 rc.cpp:404
 msgid "Undo"
 msgstr "Torna indietro"
 
-#. i18n: file: ui/pages/partition.ui:337
+#. i18n: file: ui/pages/partition.ui:374
 #. i18n: ectx: property (toolTip), widget (QPushButton, unmountButton)
 #: rc.cpp:407
 msgid "Unmount the selected partition"
