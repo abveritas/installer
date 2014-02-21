@@ -176,8 +176,7 @@ job_cleanup_drivers()
 
 	for driver in ${ALL_IDRIVERS}
 	do
-		chroot ${mountpoint} /usr/bin/pacman -Rn xf86-input-${driver} --noconfirm
-		chroot ${mountpoint} /usr/bin/pacman -Rn kde-touchpad-config --noconfirm
+		chroot ${mountpoint} /usr/bin/pacman -Rncs xf86-input-${driver} --noconfirm
 	done
 	
 	msg "input driver removal complete"
