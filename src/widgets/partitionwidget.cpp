@@ -15,6 +15,7 @@
 #include <QMouseEvent>
 
 #include "partitionwidget.h"
+#include <kicontheme.h>
 
 
 PartitionWidget::PartitionWidget(QWidget* parent) : QAbstractSlider(parent)

@@ -20,6 +20,7 @@
 #include <KLineEdit>
 #include <KMessageBox>
 #include <kio/global.h>
+#include <kicontheme.h>
 
 #include <installerpartitionmanager/core/device.h>
 #include <installerpartitionmanager/core/partition.h>

@@ -14,6 +14,7 @@
 
 #include <KFileDialog>
 #include <KLocalizedString>
+#include <kicontheme.h>
 
 #include "avatardialog.h"
 #include "config-installer.h"

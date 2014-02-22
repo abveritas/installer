@@ -19,6 +19,7 @@
  ***************************************************************************/
 
 #include <KIcon>
+#include <kicontheme.h>
 
 #include "finishpage.h"
 

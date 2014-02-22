@@ -21,6 +21,7 @@
 #include <KIO/Job>
 #include <KIO/NetAccess>
 #include <KDialog>
+#include <kicontheme.h>
 
 #include <config-installer.h>
 
