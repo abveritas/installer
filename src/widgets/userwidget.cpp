@@ -17,6 +17,7 @@
 #include "avatardialog.h"
 #include "userwidget.h"
 #include <pwquality.h>
+#include <kicontheme.h>
 
 UsernameValidator::UsernameValidator(QRegExp exp): QRegExpValidator(exp),  m_badNames()
 {
