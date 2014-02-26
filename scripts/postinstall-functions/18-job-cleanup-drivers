@@ -173,6 +173,11 @@ job_cleanup_drivers()
 	if cat /var/log/Xorg.0.log | grep "synaptics" > 0 ; then
 		ALL_IDRIVERS=`echo $ALL_IDRIVERS | sed s/"synaptics"/""/g`
 	fi
+	
+	#check for wacom driver
+	if cat /var/log/Xorg.0.log | grep "wacom" > 0 ; then
+		ALL_IDRIVERS=`echo $ALL_IDRIVERS | sed s/"wacom"/""/g`
+	fi
 
 	for driver in ${ALL_IDRIVERS}
 	do
