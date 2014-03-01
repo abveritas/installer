@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ivica  Kolić <ikoli@yahoo.com>, 2013
+# Ivica  Kolić <ikoli@yahoo.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: KaOS\n"
 "Report-Msgid-Bugs-To: http://github.com/organizations/KaOSx/dashboard/issues\n"
 "POT-Creation-Date: 2013-12-08 10:23-0500\n"
-"PO-Revision-Date: 2013-12-31 18:13+0000\n"
+"PO-Revision-Date: 2014-01-23 15:59+0000\n"
 "Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
 "Language-Team: Croatian (Croatia) (http://www.transifex.com/projects/p/kaos/language/hr_HR/)\n"
 "MIME-Version: 1.0\n"
@@ -921,7 +921,7 @@ msgid ""
 "extra options like creating initial ramfs for booting from an usb device or "
 "using an existing bootloader to add KaOS to (not having this Installer "
 "install GRUB2). "
-msgstr ""
+msgstr "Vaš novoinstalirani KaOS sustav je spreman. Ovdje možete odabrati napredne ekstra opcije poput initial ramfs za boot sa usb uređaja ili korištenje postojećeg učitavača podizanja sustava za dodavanje KaOS-a ( ako nemate ovaj instalacijaki progran instalirajte GRUB2)."
 
 #. i18n: file: ui/pages/finish.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1163,7 +1163,7 @@ msgid ""
 " and fonts. To install them, you have to read and accept their licenses. If "
 "you choose against a license, the installer will try to use a free solution "
 "(if one is available)."
-msgstr ""
+msgstr "KaOS uključuje ponek ivlasnički software poput upravljačkih programa sklopovlja, priključke medija i fontove.Za instalaciju, morate pročitati i prohvatiti njihove licence. Ako se odlučite odbaciti licence, instalacijski program će probati naći slobodnu aoluciju ( ako ima dostupnih)."
 
 #. i18n: file: ui/pages/license.ui:74
 #. i18n: ectx: property (text), widget (QLabel, licenseLabel)
@@ -1187,7 +1187,7 @@ msgstr "Prihvati licencu"
 #. i18n: ectx: property (windowTitle), widget (QWidget, Locale)
 #: rc.cpp:319
 msgid "Form"
-msgstr ""
+msgstr "Forma"
 
 #. i18n: file: ui/pages/locale.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -1232,7 +1232,7 @@ msgstr "Jezik:"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:341
 msgid "Locale:"
-msgstr ""
+msgstr "Jezik:"
 
 #. i18n: file: ui/pages/locale.ui:226
 #. i18n: ectx: property (text), widget (QCheckBox, showLocalesCheck)
@@ -1482,7 +1482,7 @@ msgstr "Odaberi avatar..."
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupSelectionWidget)
 #: rc.cpp:502
 msgid "Frame"
-msgstr ""
+msgstr "Okvir"
 
 #. i18n: file: ui/widgets/groupselectionwidget.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, group)
