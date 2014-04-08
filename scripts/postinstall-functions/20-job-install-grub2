@@ -32,8 +32,8 @@ job_install_grub2()
     sed -i -e 's,.*GRUB_THEME=.*,GRUB_THEME="/usr/share/grub/themes/midna/theme.txt",' ${mountpoint}/etc/default/grub
     sed -i -e 's,.*GRUB_GFXMODE=.*,GRUB_GFXMODE=1024x768,' ${mountpoint}/etc/default/grub
 
-    msg "generating []/boot/grub/grub.cfg"
-    chroot ${mountpoint} grub-mkconfig -o /boot/grub/grub.cfg >> /tmp/grub2.log 2>&1
+    #msg "generating []/boot/grub/grub.cfg"
+    #chroot ${mountpoint} grub-mkconfig -o /boot/grub/grub.cfg >> /tmp/grub2.log 2>&1
 
     if [ "${use_swap}" = "yes" ] ; then
 	_sdevice=$(echo /dev/${target_swap})
@@ -45,14 +45,19 @@ job_install_grub2()
 	    msg "ERROR: wrong device supplied for setting a resume device"
 	    msg "DEVICE=${_sdevice} UUID=${_suuid} TYPE=${_sfsys}" 
 	else
-	    msg "adding resume=UUID=${_suuid} to grub.cfg"
-	    sed -i -e "s~root=UUID=~resume=UUID=${_suuid} root=UUID=~g" ${mountpoint}/boot/grub/grub.cfg
+	    msg "adding resume=UUID=${_suuid} to /etc/default/grub"
+	    #sed -i -e "s~root=UUID=~resume=UUID=${_suuid} root=UUID=~g" ${mountpoint}/boot/grub/grub.cfg
+	    sed -i -e "s,GRUB_CMDLINE_LINUX_DEFAULT=.*,GRUB_CMDLINE_LINUX_DEFAULT="resume=UUID=${_suuid} quiet",g" ${mountpoint}/etc/default/grub
 	fi
 	
 	unset _sfsys
 	unset _suuid
 	unset _sdevice
     fi
+    
+    msg "generating []/boot/grub/grub.cfg"
+    chroot ${mountpoint} grub-mkconfig -o /boot/grub/grub.cfg >> /tmp/grub2.log 2>&1
+    
 
     msg_job_done "job_install_grub2"
 }
