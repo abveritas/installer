@@ -42,14 +42,14 @@ job_create_initrd()
 
     # setup mkinitcpio.conf
     msg "setup mkinitcpio.conf"
-    HWPARAMETER="$HWPARAMETER --keymap"
+    HWPARAMETER="$HWPARAMETER"
     HWDETECTHOSTCONTROLLER=""
     HWDETECTHOOKS=""
     HWDETECTHOSTCONTROLLER="$(hwdetect --hostcontroller $HWPARAMETER)"
     HWDETECTHOOKS="$(hwdetect --hooks-dir=${mountpoint}/usr/lib/initcpio/install --hooks $HWPARAMETER)"
     [ -n "$HWDETECTHOSTCONTROLLER" ] && sed -i -e "s/^MODULES=.*/$HWDETECTHOSTCONTROLLER/g" ${mountpoint}/etc/mkinitcpio.conf
     [ -n "$HWDETECTHOOKS" ] && sed -i -e "s/^HOOKS=.*/$HWDETECTHOOKS/g" ${mountpoint}/etc/mkinitcpio.conf
-    sed -i -e "s~filesystems~resume filesystems~g" ${mountpoint}/etc/mkinitcpio.conf
+    #sed -i -e "s~filesystems~resume filesystems~g" ${mountpoint}/etc/mkinitcpio.conf
 
     trap 'api_fs_umount "${mountpoint}" 2>/dev/null' EXIT
     api_fs_mount "${mountpoint}"
