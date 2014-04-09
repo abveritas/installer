@@ -47,6 +47,8 @@ job_install_grub2()
 	else
 	    msg "adding resume=UUID=${_suuid} to /etc/default/grub"
 	    sed -i -e "s~filesystems~resume filesystems~g" ${mountpoint}/etc/mkinitcpio.conf
+	    chroot ${mountpoint} /usr/bin/mkinitcpio -p linux >>/tmp/initramfs.log 2>&1
+            echo >> /tmp/initramfs_swap.log
 	    #sed -i -e "s~root=UUID=~resume=UUID=${_suuid} root=UUID=~g" ${mountpoint}/boot/grub/grub.cfg
 	    sed -i -e "s,GRUB_CMDLINE_LINUX_DEFAULT=.*,GRUB_CMDLINE_LINUX_DEFAULT="resume=UUID=${_suuid} quiet",g" ${mountpoint}/etc/default/grub
 	fi
