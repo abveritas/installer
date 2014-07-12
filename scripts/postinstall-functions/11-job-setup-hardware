@@ -36,8 +36,8 @@ job_setup_hardware()
 		if [[ "${netinst}" == "yes" ]]; then
 		    /usr/bin/pacman -r ${mountpoint} -S nvidia-utils nvidia --noconfirm
 		else
-            /usr/bin/pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/nvidia-utils-33* --noconfirm
-            /usr/bin/pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/nvidia-33* --noconfirm
+            /usr/bin/pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/nvidia-utils-34* --noconfirm
+            /usr/bin/pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/nvidia-34* --noconfirm
         fi
 
 	elif [ -e "/tmp/nvidia-304xx" ] ; then
@@ -50,8 +50,8 @@ job_setup_hardware()
         if [[ "${netinst}" == "yes" ]]; then
             /usr/bin/pacman -r ${mountpoint} -S nvidia-304xx nvidia-304xx-utils --noconfirm
         else
-            pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/nvidia-304xx-utils* --noconfirm
-            pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/nvidia-304xx-3* --noconfirm
+            /usr/bin/pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/nvidia-304xx-utils* --noconfirm
+            /usr/bin/pacman -r ${mountpoint} -Ud --force ${PKG_OVERLAY}/nvidia-304xx-3* --noconfirm
         fi
 
 	elif [ -e "/tmp/nvidia-173xx" ] ; then
